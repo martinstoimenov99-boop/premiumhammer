@@ -1,0 +1,854 @@
+{
+  "_review": "Machine-assisted translation — native review required before launch",
+  "meta": {
+    "siteName": "Premium Hammer by Tomstroj",
+    "homeTitle": "Premium Hammer — Kupferhammer für die Montage | Tomstroj",
+    "homeDescription": "Ein 620-g-Montagehammer mit Kupferkopf, Aluminium-Carbon-Stiel und eloxiertem, gerändeltem Griff. Hergestellt in Slowenien. Ab 45 € zzgl. MwSt., Zahlung auf Rechnung.",
+    "hammerTitle": "Kupferhammer 620 g — technische Daten und Bestellung | Premium Hammer",
+    "hammerDescription": "Kupferhammer für Lager mit verzinntem Kopf, Aluminium-Carbon-Stiel und gerändeltem Griff. 45 € oder 65 € mit Koffer, zzgl. MwSt. Versandkostenfrei ab 3 Hämmern.",
+    "guideTitle": "Kupferhammer: wann man ihn einsetzt und wie man ihn auswählt | Premium Hammer",
+    "guideDescription": "Ein praktischer Ratgeber zu Kupferhämmern und Schonhämmern: Kupfer, Messing, Nylon und rückschlagfreie Hämmer, Funkenbildung, Gewicht, Stielmaterialien und Pflege.",
+    "dealersTitle": "Händler und B2B — Premium Hammer ins Sortiment | Tomstroj",
+    "dealersDescription": "Für technische Händler, Werkzeughändler, Werkstattausstatter und Partner für Firmengeschenke. Fordern Sie das Händlerpaket an.",
+    "aboutTitle": "Über Tomstroj — gebaut von Menschen, die Maschinen bauen",
+    "aboutDescription": "Premium Hammer kommt von Tomstroj d.o.o., einem slowenischen Engineering- und Maschinenbauunternehmen bei Ljubljana.",
+    "contactTitle": "Kontakt | Premium Hammer by Tomstroj",
+    "contactDescription": "Tomstroj d.o.o., Podovnice 1, 1357 Notranje Gorice, Slowenien. Telefon, E-Mail, Öffnungszeiten und Kontaktformular.",
+    "privacyTitle": "Datenschutzerklärung | Premium Hammer",
+    "privacyDescription": "Wie Tomstroj d.o.o. die Daten verarbeitet, die Sie über premiumhammer.com senden.",
+    "imprintTitle": "Impressum | Premium Hammer",
+    "imprintDescription": "Angaben zu TOMSTROJ d.o.o., Betreiber von premiumhammer.com.",
+    "thanksTitle": "Bestellung eingegangen | Premium Hammer",
+    "thanksDescription": "Vielen Dank für Ihre Bestellung.",
+    "notFoundTitle": "Seite nicht gefunden | Premium Hammer",
+    "ogTagline": "Kupfer-Montagehammer · Hergestellt in Slowenien",
+    "ogPrice": "ab {price} zzgl. MwSt."
+  },
+  "nav": {
+    "skip": "Zum Inhalt springen",
+    "home": "Startseite",
+    "hammer": "Hammer",
+    "industries": "Branchen",
+    "guide": "Ratgeber",
+    "dealers": "Händler",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "order": "Bestellen",
+    "menu": "Menü",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "language": "Sprache",
+    "mainNav": "Hauptnavigation",
+    "breadcrumb": "Brotkrumen",
+    "homeLink": "Premium Hammer by Tomstroj — Startseite"
+  },
+  "common": {
+    "exclVat": "zzgl. MwSt.",
+    "from": "ab",
+    "pricesExclVat": "Alle Preise zzgl. MwSt.",
+    "freeShipping": "Versandkostenfrei ab 3 Hämmern pro Firmenbestellung",
+    "freeShippingShort": "Versandkostenfrei ab 3 Hämmern",
+    "madeInSlovenia": "Hergestellt in Slowenien",
+    "payByInvoice": "Zahlung auf Rechnung",
+    "orderNow": "Jetzt bestellen",
+    "order": "Bestellen",
+    "orderYours": "Jetzt Ihren bestellen",
+    "seeSpecs": "Technische Daten",
+    "seeHammer": "Zum Hammer",
+    "getInTouch": "Kontakt aufnehmen",
+    "learnMore": "Mehr erfahren",
+    "readGuide": "Zum Ratgeber",
+    "approx": "≈",
+    "placeholder": "Bild folgt",
+    "placeholderFile": "Datei: {file}",
+    "close": "Schließen",
+    "previous": "Vorheriges Bild",
+    "next": "Nächstes Bild",
+    "openImage": "Bild {n} von {total} öffnen",
+    "showImage": "Bild {n} anzeigen",
+    "imageOf": "Bild {n} von {total}",
+    "lightbox": "Bildbetrachter",
+    "comingSoon": "Folgt in Kürze",
+    "download": "Herunterladen",
+    "byTomstroj": "by Tomstroj"
+  },
+  "footer": {
+    "tagline": "Ein Produkt, sorgfältig gemacht. Kupfer-Montagehammer, entwickelt und montiert in Slowenien.",
+    "addressLabel": "Adresse",
+    "contactLabel": "Kontakt",
+    "hoursLabel": "Öffnungszeiten",
+    "navLabel": "Website",
+    "legalLabel": "Rechtliches",
+    "privacy": "Datenschutz",
+    "imprint": "Impressum",
+    "rights": "© {year} Tomstroj d.o.o. Alle Rechte vorbehalten."
+  },
+  "company": {
+    "country": "Slowenien",
+    "monFri": "Montag–Freitag",
+    "sat": "Samstag",
+    "hours": "{days} {open}–{close} Uhr"
+  },
+  "product": {
+    "name": "Premium Hammer",
+    "weight": "Gewicht",
+    "head": "Kopf",
+    "shaft": "Stiel",
+    "grip": "Griff",
+    "overallLength": "Gesamtlänge",
+    "handleLength": "Stiellänge (mit Griff)",
+    "headLength": "Kopflänge",
+    "headDiameter": "Kopfdurchmesser",
+    "gripDiameter": "Griffdurchmesser",
+    "onImpact": "Beim Schlag",
+    "madeIn": "Hergestellt in",
+    "priceNoCase": "Preis ohne Koffer",
+    "priceCase": "Preis mit Koffer",
+    "priceCaseNote": "Hartschalenkoffer mit Schaumeinlage",
+    "shipping": "Versand",
+    "shippingValue": "Versandkostenfrei ab 3 Hämmern in einer Firmenbestellung; sonst nennen wir die Kosten mit der Auftragsbestätigung",
+    "certification": "Zertifizierung",
+    "certificationValue": "Nicht ATEX/BAM-zertifiziert — wir prüfen eine BAM-Prüfung für den Einsatz in Ex-Bereichen",
+    "dimensionsEstimate": "Maße sind Näherungswerte.",
+    "variant": {
+      "nocase": {
+        "name": "Ohne Koffer",
+        "line": "Der Hammer, bereit für den Werkzeugkasten.",
+        "short": "ohne Koffer"
+      },
+      "case": {
+        "name": "Mit Koffer",
+        "line": "Hartschalenkoffer mit Schaumeinlage — für den Transporter, das Regal oder als Geschenk.",
+        "short": "mit Koffer"
+      }
+    }
+  },
+  "certification": {
+    "note": "Premium Hammer ist nicht für den Einsatz in explosionsgefährdeten ATEX-Bereichen zertifiziert. Wir prüfen eine BAM-Prüfung für den Einsatz in Ex-Bereichen; bis dahin prüfen Sie die Eignung bitte anhand der Explosionsschutzregeln an Ihrem Standort.",
+    "label": "Zertifizierungsstatus"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Kupfer · Carbon · Aluminium",
+      "title": "Premium Hammer",
+      "lead": "Ein 620-g-Montagehammer mit Kupferkopf und Aluminium-Carbon-Stiel. Er schlägt kräftig zu und schont das Werkstück.",
+      "priceChip": "ab {price} · zzgl. MwSt.",
+      "trust": "Hergestellt in Slowenien · Versandkostenfrei ab 3 Hämmern · Zahlung auf Rechnung"
+    },
+    "specStrip": {
+      "label": "Wichtige technische Daten",
+      "weight": "Gesamtgewicht",
+      "headValue": "Kupfer",
+      "head": "verzinnter Kopf",
+      "shaftValue": "Aluminium-Carbon",
+      "shaft": "Stiel",
+      "gripValue": "Eloxiert",
+      "grip": "gerändelter Griff"
+    },
+    "what": {
+      "title": "Für den Moment, in dem Stahl Schaden anrichten würde",
+      "body": "Lager, Buchsen, Stifte, Gehäuse, Vorrichtungen und fertige Oberflächen müssen ohne Delle an ihren Platz. Premium Hammer liefert einen kräftigen, kontrollierten Schlag über eine verzinnte Kupferfläche, die nachgibt, bevor das Werkstück es tut. Der Aluminium-Carbon-Stiel hält das Gewicht dort, wo es hingehört — im Kopf —, und der eloxierte, gerändelte Griff bleibt sicher in der Hand, auch mit Öl, Emulsion oder Wasser an den Händen.",
+      "small": "Kupfer funkt beim Schlag nicht."
+    },
+    "why": {
+      "eyebrow": "Konstruktion",
+      "title": "Jedes Material hat seine Aufgabe.",
+      "copper": {
+        "title": "Kupferschlagfläche",
+        "body": "Weicher als der Stahl, auf den sie trifft — so behalten Lager, Wellen und fertige Oberflächen ihre Form."
+      },
+      "shaft": {
+        "title": "Aluminium-Carbon-Stiel",
+        "body": "Leicht und steif, damit der Hammer auch in einer langen Schicht ausgewogen und präzise in der Hand liegt."
+      },
+      "grip": {
+        "title": "Eloxierter, gerändelter Griff",
+        "body": "Ein gefrästes Muster, das in Öl, Emulsion und Wasser hält, wo Gummigriffe rutschig werden."
+      },
+      "tin": {
+        "title": "Verzinnter Kopf",
+        "body": "Eine Schutzschicht, die Korrosion bremst und das Kupfer aussehen lässt wie ein Werkzeug, das man pflegt."
+      }
+    },
+    "industries": {
+      "eyebrow": "Branchen",
+      "title": "Wo er seinen Platz verdient."
+    },
+    "details": {
+      "eyebrow": "Details",
+      "title": "Genauer hinsehen.",
+      "head": "Gefaster Kupferkopf",
+      "grip": "Gerändelter Griff aus eloxiertem Aluminium",
+      "shaft": "Stiel aus Aluminium mit Carbongewebe",
+      "case": "Hartschalenkoffer mit Schaumeinlage",
+      "dimensions": "Maße und Aufbau"
+    },
+    "field": {
+      "eyebrow": "Im Einsatz",
+      "title": "Echte Fotos. Keine Renderings.",
+      "lead": "Der fertige Hammer, fotografiert auf der Baustelle und bei der Arbeit."
+    },
+    "compare": {
+      "eyebrow": "Vergleich",
+      "title": "Ehrlich, wo er steht.",
+      "footnote": "Vergleich auf Basis öffentlicher Online-Angebote in der EU, November 2026."
+    },
+    "trust": {
+      "eyebrow": "Vertrauen",
+      "title": "Im Einsatz bei",
+      "credential1": "Entwickelt und hergestellt von Tomstroj, einem Engineering- und Maschinenbauunternehmen bei Ljubljana.",
+      "credential2": "Jeder Hammer wird vor dem Versand in Slowenien montiert und geprüft.",
+      "offerTitle": "Gründungswerkstätten",
+      "offerBody": "Die ersten 20 Werkstätten, die bestellen, erhalten ihren Firmennamen kostenlos graviert."
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Fragen und Antworten."
+    },
+    "final": {
+      "title": "Jetzt Ihren bestellen"
+    }
+  },
+  "industries": {
+    "cnc": {
+      "title": "CNC und Zerspanung",
+      "body": "Werkstücke in Schraubstock und Vorrichtung einrichten, ohne Teil oder Backen zu markieren."
+    },
+    "bearing": {
+      "title": "Lager- und Maschinenmontage",
+      "body": "Lager, Buchsen und Stifte mit kräftigem Schlag setzen, der den Sitz schont."
+    },
+    "automotive": {
+      "title": "Kfz-Werkstätten",
+      "body": "Naben, Fahrwerksteile und Leichtmetallkomponenten, die Stahl zerkratzen würde."
+    },
+    "maintenance": {
+      "title": "Instandhaltung",
+      "body": "Der Hammer für die Instandhaltungswerkbank: Ausrichten, Justieren und Lösen von Teilen in Produktionshallen."
+    },
+    "electromech": {
+      "title": "Präzisions-Elektromechanik",
+      "body": "Motoren, Gehäuse und Baugruppen, bei denen ein sanfter, genauer Schlag zählt."
+    },
+    "gift": {
+      "title": "Ein Geschenk für Profis",
+      "body": "Im Hartschalenkoffer geliefert, auf Wunsch graviert; ein Werkzeug, das man wirklich behält."
+    }
+  },
+  "compareTable": {
+    "caption": "Premium Hammer im Vergleich mit typischen Kupferhämmern",
+    "ours": "Premium Hammer",
+    "wood": "Typischer Kupferhammer mit Holzstiel",
+    "composite": "Typischer Kupferhammer mit Composite-Stiel",
+    "rows": {
+      "handle": {
+        "label": "Stiel",
+        "ours": "Aluminium-Carbon-Stiel, Griff aus eloxiertem Aluminium",
+        "wood": "Esche oder Hickory",
+        "composite": "Glasfaser-Composite"
+      },
+      "grip": {
+        "label": "Griff bei Öl und Wasser",
+        "ours": "Gerändeltes Metall, hält",
+        "wood": "Lackiertes Holz, rutscht",
+        "composite": "Elastomer, unterschiedlich"
+      },
+      "weight": {
+        "label": "Gewicht",
+        "ours": "{weight}",
+        "wood": "500–1000 g",
+        "composite": "600–1500 g"
+      },
+      "case": {
+        "label": "Koffer",
+        "ours": "Hartschalenkoffer optional",
+        "wood": "Nein",
+        "composite": "Nein"
+      },
+      "price": {
+        "label": "Preis",
+        "ours": "{prices} zzgl. MwSt.",
+        "wood": "Meist niedriger",
+        "composite": "Meist höher"
+      }
+    }
+  },
+  "steelCompare": {
+    "eyebrow": "Kupfer oder Stahl",
+    "title": "Neben einem Standard-Werkstatthammer",
+    "imageCaption": "Premium Hammer neben einem Standard-Werkstatthammer aus Stahl",
+    "caption": "Premium Hammer im Vergleich mit einem Standard-Werkstatthammer aus Stahl",
+    "ours": "Premium Hammer",
+    "steel": "Standard-Werkstatthammer aus Stahl",
+    "rows": {
+      "head": {
+        "label": "Kopf",
+        "ours": "Kupfer, verzinnt",
+        "steel": "Gehärteter Stahl"
+      },
+      "marks": {
+        "label": "Markiert das Werkstück",
+        "ours": "Die Kupferfläche gibt zuerst nach; Lager, Wellen und fertige Oberflächen behalten ihre Form",
+        "steel": "Kann Lager, Wellen und fertige Oberflächen eindellen"
+      },
+      "impact": {
+        "label": "Beim Schlag",
+        "ours": "Kupfer funkt nicht",
+        "steel": "Stahl auf Stahl kann Funken schlagen"
+      },
+      "handle": {
+        "label": "Stiel",
+        "ours": "Aluminium-Carbon-Stiel",
+        "steel": "Glasfaserkern mit Kunststoff- oder Gummimantel"
+      },
+      "grip": {
+        "label": "Griff bei Öl oder Wasser",
+        "ours": "Gefräste Rändelung behält die Haftung",
+        "steel": "Glatte Mäntel können rutschig werden"
+      },
+      "storage": {
+        "label": "Aufbewahrung",
+        "ours": "Hartschalenkoffer mit Schaumeinlage optional",
+        "steel": "Keine"
+      },
+      "use": {
+        "label": "Geeignet für",
+        "ours": "Montage, Ausrichten, Setzen von Teilen, Präzisionsarbeit",
+        "steel": "Durchschläge, Meißel, Nägel, allgemeine schwere Schläge"
+      },
+      "price": {
+        "label": "Preis",
+        "ours": "{prices} zzgl. MwSt.",
+        "steel": "Meist günstiger"
+      }
+    },
+    "footnote": "Andere Aufgaben, andere Werkzeuge. Für Durchschläge und Meißel bleibt ein Stahlhammer die richtige Wahl; Premium Hammer ist für die Teile, die Sie nicht markieren dürfen."
+  },
+  "customers": {
+    "label": "Unternehmen, die Premium Hammer einsetzen",
+    "ekoling": "Hrušica, Slowenien · Teil der Roto Group",
+    "eoat": "Ljubljana, Slowenien · Robotergreifer",
+    "tehkom": "Kočani, Nordmazedonien · Metallverarbeitung",
+    "trelleborg": "Kranj, Slowenien · Polymerlösungen",
+    "scorpion": "Kfz-Reparatur",
+    "mebelvi": "Nordmazedonien · Möbelherstellung",
+    "bikerguard": "Ljubljana, Slowenien · Hersteller elektrischer Scheibenwischer"
+  },
+  "video": {
+    "title": "Erste Lieferung, ausgepackt",
+    "caption": "Aus der Verpackung: der Koffer, der Hammer, der erste Schlag.",
+    "unsupported": "Ihr Browser kann dieses Video nicht abspielen."
+  },
+  "faq": {
+    "home": [
+      {
+        "q": "Ist der Hammer funkenfrei?",
+        "a": "Kupfer funkt beim Schlag nicht, deshalb werden Kupferhämmer in Montage und Instandhaltung eingesetzt. Premium Hammer ist noch nicht für ATEX-Ex-Bereiche zertifiziert; wir prüfen eine BAM-Prüfung."
+      },
+      {
+        "q": "Nutzt sich die Kupferfläche ab?",
+        "a": "Ja. Kupfer ist bewusst weicher als Stahl, daher verformt sich die Fläche bei harter Nutzung. Genau das schützt Ihre Teile."
+      },
+      {
+        "q": "Was ist der Unterschied zwischen den beiden Varianten?",
+        "a": "Es ist derselbe Hammer. Die Variante für 65 € wird in einem Hartschalenkoffer mit Schaumeinlage geliefert."
+      },
+      {
+        "q": "Sind die Preise inklusive MwSt.?",
+        "a": "Nein. Die Preise verstehen sich zzgl. MwSt., die mit dem jeweils geltenden Satz auf der Rechnung ausgewiesen wird. Unternehmen in der EU außerhalb Sloweniens mit gültiger USt-IdNr. erhalten eine Rechnung im Reverse-Charge-Verfahren."
+      },
+      {
+        "q": "Was kostet der Versand?",
+        "a": "Ab 3 Hämmern in einer Firmenbestellung ist der Versand kostenlos. Für 1–2 Hämmer nennen wir die Versandkosten mit der Auftragsbestätigung."
+      },
+      {
+        "q": "Arbeiten Sie mit Händlern?",
+        "a": "Ja. Besuchen Sie die Händlerseite oder fordern Sie das Händlerpaket an."
+      }
+    ],
+    "product": [
+      {
+        "q": "Wozu dient die Verzinnung?",
+        "a": "Sie schützt das Kupfer vor Korrosion und Verfärbung."
+      },
+      {
+        "q": "Wie verhält sich der Griff bei Öl?",
+        "a": "Die gefräste Rändelung behält die Haftung bei Öl, Emulsion oder Wasser, wo glatte oder Gummigriffe rutschen."
+      },
+      {
+        "q": "Lässt sich die Schlagfläche nacharbeiten?",
+        "a": "Leichte Abnutzung lässt sich mit einer Feile nacharbeiten. Ist der Kopf stark verformt, ist es Zeit für einen neuen Hammer."
+      },
+      {
+        "q": "Können wir unseren Firmennamen gravieren lassen?",
+        "a": "Ja. Geben Sie ihn im Bestellformular an; die Gravur bestätigen wir per E-Mail."
+      },
+      {
+        "q": "Wie bezahle ich?",
+        "a": "Per Banküberweisung auf Rechnung. Die Rechnung senden wir mit Ihrer Auftragsbestätigung."
+      },
+      {
+        "q": "Wie schnell liefern Sie?",
+        "a": "Das Versanddatum bestätigen wir mit der Auftragsbestätigung, innerhalb eines Werktags nach Ihrer Bestellung."
+      }
+    ]
+  },
+  "hammer": {
+    "eyebrow": "By Tomstroj · Hergestellt in Slowenien",
+    "title": "Premium Hammer",
+    "lead": "620-g-Montagehammer mit Kupferkopf, Aluminium-Carbon-Stiel und eloxiertem, gerändeltem Griff.",
+    "variantLegend": "Variante wählen",
+    "quantity": "Menge",
+    "decrease": "Menge verringern",
+    "increase": "Menge erhöhen",
+    "freeShippingLive": "Ab 3 Stück: versandkostenfrei",
+    "orderCta": "Bestellen",
+    "perks": "Zahlung auf Rechnung · Versand in die EU und den Westbalkan · Gravur auf Wunsch",
+    "galleryLabel": "Produktbilder",
+    "specs": {
+      "eyebrow": "Technische Daten",
+      "title": "Technische Daten",
+      "caption": "Technische Daten Premium Hammer"
+    },
+    "box": {
+      "title": "Lieferumfang",
+      "hammer": "Premium Hammer",
+      "case": "Hartschalenkoffer mit Schaumeinlage (Variante für {price})",
+      "card": "Pflegekarte"
+    },
+    "uses": {
+      "eyebrow": "Einsatzbereiche",
+      "title": "Gemacht für sechs Arten von Arbeit"
+    },
+    "care": {
+      "eyebrow": "Pflege und Verschleiß",
+      "title": "Kupfer soll nachgeben.",
+      "body": "Die Kupferfläche ist bewusst weicher als Stahl. Bei harter Nutzung staucht und verformt sie sich — genau das schützt Ihre Teile. Halten Sie den Kopf sauber und trocken; leichtes Nacharbeiten mit der Feile stellt die Fläche wieder her. Ist die Fläche stark abgenutzt oder lockert sich der Kopf am Stiel, verwenden Sie den Hammer nicht weiter und kontaktieren Sie uns."
+    },
+    "faqTitle": "Fragen zum Produkt",
+    "orderEyebrow": "Bestellung",
+    "orderTitle": "Bestellung aufgeben",
+    "orderLead": "Kein Warenkorb, keine Online-Zahlung. Senden Sie das Formular — wir bestätigen per E-Mail und schicken Ihnen eine Rechnung."
+  },
+  "form": {
+    "required": "Pflichtfeld",
+    "optional": "optional",
+    "variant": "Variante",
+    "quantity": "Menge",
+    "company": "Firmenname",
+    "vatId": "USt-IdNr.",
+    "vatHint": "EU-Unternehmen: mit Länderkürzel, z. B. DE123456789.",
+    "vatChecking": "Prüfung über VIES …",
+    "vatValid": "USt-IdNr. in VIES gültig",
+    "vatValidName": "USt-IdNr. in VIES gültig: {name}",
+    "vatInvalid": "USt-IdNr. in VIES nicht gefunden. Sie können die Bestellung trotzdem senden.",
+    "vatUnavailable": "VIES ist gerade nicht erreichbar. Sie können die Bestellung trotzdem senden; wir prüfen manuell.",
+    "vatNotEu": "Keine EU-USt-IdNr. — keine VIES-Prüfung nötig.",
+    "contactName": "Ansprechpartner",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "country": "Lieferland",
+    "countryPlaceholder": "Land auswählen",
+    "address": "Lieferadresse",
+    "addressHint": "Straße, Postleitzahl, Ort",
+    "engraving": "Gravur hinzufügen",
+    "engravingText": "Gravurtext",
+    "engravingHint": "Bis zu {max} Zeichen. Die Gravur bestätigen wir per E-Mail.",
+    "message": "Nachricht",
+    "consent": "Ich stimme der <link>Datenschutzerklärung</link> zu",
+    "submit": "Bestellung senden",
+    "submitting": "Wird gesendet …",
+    "website": "Website",
+    "country2": "Land",
+    "type": "Unternehmensart",
+    "typePlaceholder": "Art auswählen",
+    "types": {
+      "distributor": "Distributor",
+      "retailer": "Fachhändler",
+      "online": "Onlineshop",
+      "gifts": "Firmengeschenke",
+      "other": "Sonstiges"
+    },
+    "volume": "Erwartete Jahresmenge",
+    "volumePlaceholder": "Bereich auswählen",
+    "volumes": {
+      "v1": "Unter 50 Hämmer",
+      "v2": "50–200 Hämmer",
+      "v3": "200–1000 Hämmer",
+      "v4": "Mehr als 1000 Hämmer",
+      "unknown": "Noch unklar"
+    },
+    "name": "Name",
+    "topic": "Thema",
+    "topicPlaceholder": "Thema auswählen",
+    "topics": {
+      "order": "Bestellung",
+      "dealer": "Händler",
+      "engraving": "Gravur",
+      "other": "Sonstiges"
+    },
+    "dealerSubmit": "Händlerpaket anfordern",
+    "contactSubmit": "Nachricht senden",
+    "turnstile": "Spamschutz",
+    "errors": {
+      "summary": "Bitte prüfen Sie die markierten Felder.",
+      "required": "Dieses Feld ist erforderlich.",
+      "email": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+      "quantity": "Bitte geben Sie eine Menge von {min} bis {max} ein.",
+      "engraving": "Gravurtext: 1 bis {max} Zeichen.",
+      "consent": "Bitte stimmen Sie der Datenschutzerklärung zu.",
+      "country": "Bitte wählen Sie ein Land aus der Liste.",
+      "url": "Bitte geben Sie eine gültige Webadresse ein.",
+      "turnstile": "Die Spamprüfung ist fehlgeschlagen. Bitte versuchen Sie es erneut.",
+      "rateLimit": "Zu viele Anfragen von Ihrer Verbindung. Bitte versuchen Sie es in einer Stunde erneut oder schreiben Sie uns eine E-Mail.",
+      "send": "Wir konnten Ihre Nachricht nicht senden. Bitte versuchen Sie es erneut oder schreiben Sie an {email}.",
+      "tooLong": "Dieser Text ist zu lang."
+    },
+    "dealerSuccess": "Vielen Dank. Wir senden das Händlerpaket innerhalb eines Werktags an {email}.",
+    "contactSuccess": "Vielen Dank. Wir antworten innerhalb eines Werktags an {email}."
+  },
+  "summary": {
+    "title": "Bestellübersicht",
+    "line": "{variant} × {qty}",
+    "subtotal": "Zwischensumme zzgl. MwSt.",
+    "shipping": "Versand",
+    "shippingFree": "Kostenlos",
+    "shippingQuoted": "Angebot mit der Bestätigung",
+    "vatNote": "MwSt. wird auf der Rechnung ausgewiesen",
+    "engraving": "Gravur",
+    "engravingValue": "„{text}“"
+  },
+  "thanks": {
+    "eyebrow": "Bestellung eingegangen",
+    "title": "Vielen Dank für Ihre Bestellung",
+    "ref": "Bestellnummer",
+    "body": "Wir haben Ihnen eine Bestätigung per E-Mail gesendet. Die Rechnung und die Versandbestätigung erhalten Sie innerhalb eines Werktags.",
+    "noRef": "Falls Sie in einigen Minuten keine Bestätigung erhalten, prüfen Sie bitte Ihren Spam-Ordner oder kontaktieren Sie uns.",
+    "back": "Zurück zum Hammer",
+    "contact": "Fragen? Rufen Sie {phone} an oder schreiben Sie an {email}."
+  },
+  "email": {
+    "orderSubject": "Ihre Premium-Hammer-Bestellung {ref}",
+    "orderPreview": "Vielen Dank — Bestellung {ref} ist eingegangen.",
+    "hello": "Guten Tag {name},",
+    "thanks": "vielen Dank für Ihre Bestellung. Hier ist die Übersicht.",
+    "next": "Die Rechnung und die Versandbestätigung erhalten Sie innerhalb eines Werktags.",
+    "ref": "Bestellnummer",
+    "regards": "Mit freundlichen Grüßen",
+    "team": "Tomstroj d.o.o.",
+    "dealerSubject": "Ihre Anfrage zum Premium-Hammer-Händlerpaket",
+    "dealerBody": "Vielen Dank für Ihr Interesse an Premium Hammer. Wir senden Ihnen das Händlerpaket innerhalb eines Werktags.",
+    "contactSubject": "Wir haben Ihre Nachricht erhalten",
+    "contactBody": "Vielen Dank für Ihre Nachricht. Wir antworten innerhalb eines Werktags."
+  },
+  "guide": {
+    "eyebrow": "Ratgeber",
+    "title": "Kupferhammer: wann man ihn einsetzt und wie man ihn auswählt",
+    "lead": "Ein Kupferhammer ist ein Schonhammer: Er schlägt kräftig, gibt aber nach, bevor das Werkstück es tut. Wann Sie zu ihm greifen, wie Kupfer im Vergleich zu Messing, Nylon und rückschlagfreien Hämmern abschneidet und worauf Sie beim Kauf achten sollten.",
+    "updated": "Aktualisiert am {date}",
+    "byline": "Von Tomstroj d.o.o.",
+    "toc": "Auf dieser Seite",
+    "s1": {
+      "title": "Wofür ein Kupferhammer da ist",
+      "p1": "Ein Kupferhammer ist für Schläge mit weicher Schlagfläche gebaut. Kupfer ist weicher als gehärteter Stahl: Trifft es auf einen Lagerring, ein Wellenende oder eine bearbeitete Fläche, verformt sich zuerst das Kupfer, und das Teil behält seine Form.",
+      "p2": "Das macht ihn zum Montagehammer: Lager und Buchsen setzen, Werkstücke im Schraubstock ausrichten, Passstifte eintreiben, ein Gehäuse in Flucht bringen oder ein festsitzendes Teil lösen, ohne Spuren zu hinterlassen."
+    },
+    "s2": {
+      "title": "Kupfer, Messing, Nylon oder rückschlagfrei",
+      "p1": "Schonhämmer tauschen Härte gegen Schutz. Je weicher die Fläche, desto weniger markiert sie — und desto weniger Kraft überträgt sie.",
+      "caption": "Schonhammer-Typen im Vergleich",
+      "col": {
+        "type": "Schlagfläche",
+        "hardness": "Härte",
+        "marking": "Risiko von Spuren",
+        "rebound": "Rückprall",
+        "use": "Typischer Einsatz"
+      },
+      "rows": {
+        "copper": {
+          "type": "Kupfer",
+          "hardness": "Weiches Metall",
+          "marking": "Gering",
+          "rebound": "Gering",
+          "use": "Lager, Wellen, Stifte, Montage und Ausrichten"
+        },
+        "brass": {
+          "type": "Messing",
+          "hardness": "Härter als Kupfer",
+          "marking": "Gering bis mittel",
+          "rebound": "Mittel",
+          "use": "Durchschläge auf weicheren Stählen, allgemeine Instandhaltung"
+        },
+        "nylon": {
+          "type": "Nylon / Kunststoff",
+          "hardness": "Weicher Kunststoff",
+          "marking": "Sehr gering",
+          "rebound": "Mittel bis hoch",
+          "use": "Blech, lackierte und fertige Flächen, leichte Montage"
+        },
+        "deadblow": {
+          "type": "Rückschlagfrei",
+          "hardness": "Kunststoffmantel mit Schrotfüllung",
+          "marking": "Sehr gering",
+          "rebound": "Sehr gering",
+          "use": "Setzen von Teilen, wenn kein Rückprall entstehen darf"
+        }
+      },
+      "p2": "Kupfer liegt in der Mitte: Es überträgt mehr vom Schlag als Nylon oder Gummi, hinterlässt deutlich weniger Spuren als Stahl oder Messing und prallt kaum zurück."
+    },
+    "s3": {
+      "title": "Funkt Kupfer?",
+      "p1": "Kupfer erzeugt beim Schlag nicht die heißen Funken, die Stahl erzeugt; deshalb werden Kupferwerkzeuge in der Nähe brennbarer Stoffe eingesetzt. Oft wird aus genau diesem Grund nach einem „funkenarmen Hammer“ gesucht.",
+      "p2": "Zertifizierte Werkzeuge für explosionsgefährdete Atmosphären werden jedoch gesondert geprüft und zugelassen; ein Kupferhammer ist nicht automatisch für Ex-Bereiche zugelassen. Prüfen Sie das Explosionsschutzdokument Ihres Standorts, bevor Sie einen Hammer in einem gefährdeten Bereich einsetzen."
+    },
+    "s4": {
+      "title": "Das richtige Gewicht",
+      "items": [
+        "300–500 g für feine Montage: kleine Stifte, Gerätegehäuse, leichtes Ausrichten.",
+        "500–800 g für den allgemeinen Werkstatteinsatz: Lager, Buchsen, Schraubstöcke und Vorrichtungen.",
+        "Ab 1 kg für schweres Setzen: große Lager, Kupplungen und große Gehäuse."
+      ],
+      "p1": "Mit 620 g liegt Premium Hammer im Bereich für den allgemeinen Werkstatteinsatz."
+    },
+    "s5": {
+      "title": "Stielmaterialien",
+      "items": [
+        "Holz (Esche, Hickory): leicht und angenehm in der Hand, aber lackiertes Holz rutscht in Öl und kann sich lockern, wenn es austrocknet.",
+        "Glasfaser: robust und dämpfend; meist mit Gummi- oder Kunststoffmantel, der in Öl rutschig werden kann.",
+        "Composite: glas- oder carbonfaserverstärkter Kunststoff, oft mit Elastomergriff; das Verhalten in Öl hängt vom Griff ab.",
+        "Aluminium-Carbon: ein steifer, leichter Stiel, der das Gewicht im Kopf hält; mit gerändeltem Metallgriff hält er in Öl, Emulsion und Wasser."
+      ]
+    },
+    "s6": {
+      "title": "Pflege eines Kupferhammers",
+      "p1": "Kupfer soll nachgeben, daher staucht sich die Fläche mit der Zeit. Halten Sie den Kopf sauber und trocken. Leichte Grate und Stauchungen arbeiten Sie mit einer Feile nach, bis die Fläche wieder eben ist.",
+      "p2": "Ersetzen Sie den Hammer — oder den Kopf, wo die Konstruktion es erlaubt —, wenn die Fläche stark verformt oder gerissen ist oder sich der Kopf am Stiel lockert."
+    },
+    "cta": {
+      "title": "Ein Kupferhammer für die Werkstatt",
+      "body": "Premium Hammer: 620 g, verzinnter Kupferkopf, Aluminium-Carbon-Stiel, eloxierter, gerändelter Griff."
+    }
+  },
+  "dealers": {
+    "hero": {
+      "eyebrow": "Händler und B2B",
+      "title": "Premium Hammer ins Sortiment",
+      "lead": "Für technische Händler, Werkzeughändler, Werkstattausstatter und Partner für Firmengeschenke in ganz Europa.",
+      "cta": "Händlerpaket anfordern"
+    },
+    "why": {
+      "eyebrow": "Warum ins Sortiment",
+      "title": "Ein Produkt mit klarem Platz im Regal",
+      "c1": {
+        "title": "Ein Format, das selten im Katalog steht",
+        "body": "Ein Format, das die großen Kataloge nicht führen — Kupferkopf, Aluminium-Carbon-Stiel, Präsentationskoffer."
+      },
+      "c2": {
+        "title": "Direkt vom Hersteller",
+        "body": "Hergestellt in Slowenien, kurze Lieferzeiten, direkter Kontakt zum Hersteller."
+      },
+      "c3": {
+        "title": "Verpackung, die verkauft",
+        "body": "Eine Verpackung, die sich selbst verkauft — an der Theke, auf dem Katalogfoto oder als Geschenk."
+      }
+    },
+    "market": {
+      "eyebrow": "Positionierung",
+      "title": "Wo er im Markt steht",
+      "lead": "Preise pro Gramm umgerechnet, damit sie fair vergleichbar sind; alle Angaben inklusive MwSt. für einen direkten Vergleich.",
+      "caption": "Spannen aus öffentlichen Online-Angeboten in der EU, November 2026. Premium Hammer liegt über Hämmern mit Holzstiel und unter Premium-Hämmern mit Composite-Stiel.",
+      "col": {
+        "type": "Produkttyp",
+        "weight": "Typisches Gewicht",
+        "retail": "Typischer Endpreis inkl. MwSt.",
+        "perGram": "€ pro Gramm"
+      },
+      "rows": {
+        "wood600": "Kupferhammer mit Holzstiel",
+        "wood1000": "Kupferhammer mit Holzstiel",
+        "oursNoCase": "Premium Hammer, ohne Koffer",
+        "oursCase": "Premium Hammer, mit Koffer",
+        "composite600": "Kupferhammer mit carbonverstärktem Composite-Stiel"
+      },
+      "vatNote": "({net} + {rate} % MwSt. SI)"
+    },
+    "get": {
+      "eyebrow": "Händlerpaket",
+      "title": "Was Händler erhalten",
+      "items": [
+        "Produktblatt auf EN / SL / DE",
+        "Freisteller und Anwendungsfotos in hoher Auflösung",
+        "Maßgrafik",
+        "EAN-Codes und Kartonmaße",
+        "Händlerpreisliste auf Anfrage"
+      ]
+    },
+    "sizes": {
+      "title": "Bestellmengen",
+      "caption": "Bestellmengen für Händler",
+      "col": {
+        "size": "Bestellgröße",
+        "qty": "Menge",
+        "price": "Preis"
+      },
+      "sample": "Musterstück",
+      "sampleQty": "1 Hammer",
+      "starter": "Starterkarton",
+      "starterQty": "Auf Anfrage",
+      "volume": "Volumen",
+      "volumeQty": "Ab 50 Hämmern",
+      "onRequest": "Preis auf Anfrage"
+    },
+    "label": {
+      "title": "Eigenmarke und Gravur",
+      "body": "Firmennamen und Logos, graviert auf Stiel oder Griff; Verpackung als Eigenmarke für Katalogpartner auf Anfrage."
+    },
+    "downloads": {
+      "title": "Downloads",
+      "en": "Broschüre (Englisch, PDF)",
+      "sl": "Broschüre (Slowenisch, PDF)",
+      "de": "Broschüre (Deutsch, PDF)"
+    },
+    "form": {
+      "eyebrow": "Händlerpaket",
+      "title": "Händlerpaket anfordern",
+      "lead": "Erzählen Sie uns von Ihrem Unternehmen. Wir antworten innerhalb eines Werktags."
+    }
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "Über Tomstroj",
+      "title": "Gebaut von Menschen, die Maschinen bauen",
+      "lead": "Premium Hammer kommt von Tomstroj, einem slowenischen Engineering- und Maschinenbauunternehmen bei Ljubljana."
+    },
+    "who": {
+      "title": "Wer wir sind",
+      "body": "Tomstroj d.o.o. — ausgeschrieben ein Unternehmen für Engineering, Maschinenbau und Handel — entwickelt und baut Maschinen und mechanische Systeme an seinem Standort in Notranje Gorice, mit einer zweiten Werkstatt in Vrhnika. Die Arbeit reicht von Engineering und Konstruktion bis zu Fertigung, Hydraulik, Elektrik und Montage."
+    },
+    "building": {
+      "title": "Woran wir arbeiten",
+      "body": "Neben dem Auftrags-Engineering entwickelt Tomstroj eigene Produkte. Das erste ist <b>TIFCO</b>, eine mobile Abfallpresse für Hotels und Großküchen: Sie läuft an einer normalen einphasigen Steckdose, presst einen vollen Sack in etwa 30 Sekunden und gibt den gepressten Abfall direkt in die Tonne. TIFCO befindet sich in der abschließenden Testphase."
+    },
+    "why": {
+      "title": "Warum ein Hammer",
+      "body": "Montagearbeit braucht einen Hammer, der kräftig schlägt, ohne Lager, Wellen oder fertige Teile zu markieren. Die Kupferhämmer, die wir kaufen konnten, hatten schwere Holzstiele, die in Öl rutschten. Also haben wir unseren eigenen gebaut: einen Kupferkopf, einen Aluminium-Carbon-Stiel und einen gefrästen Griff. Andere Werkstätten wollten auch einen. Premium Hammer ist das Ergebnis — ein Produkt, sorgfältig gemacht."
+    },
+    "made": {
+      "title": "Hergestellt in Slowenien",
+      "lead": "Engineering, Fertigung und Montage unter einem Dach in Notranje Gorice und Vrhnika."
+    },
+    "cta": {
+      "title": "Ein Produkt, sorgfältig gemacht."
+    }
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "title": "Sprechen Sie mit dem Hersteller",
+    "lead": "Bestellungen, Händleranfragen, Gravuren oder etwas anderes — wir antworten innerhalb eines Werktags.",
+    "address": "Adresse",
+    "phoneEmail": "Telefon und E-Mail",
+    "hours": "Öffnungszeiten",
+    "map": "In Google Maps öffnen",
+    "mapAlt": "Karte mit dem Standort von Tomstroj d.o.o., Podovnice 1, Notranje Gorice",
+    "formTitle": "Schreiben Sie uns"
+  },
+  "imprint": {
+    "title": "Impressum",
+    "company": "Unternehmen",
+    "address": "Sitz",
+    "unit": "Betriebsstätte",
+    "reg": "Registernummer",
+    "vat": "USt-IdNr.",
+    "contact": "Kontakt",
+    "responsible": "Verantwortlich für den Inhalt",
+    "responsibleValue": "Tomstroj d.o.o.",
+    "disputes": "Online-Streitbeilegung",
+    "disputesBody": "Wir verkaufen ausschließlich an Unternehmen. Wir sind nicht verpflichtet und nicht bereit, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "status": "TODO: rechtliche Prüfung",
+    "updated": "Zuletzt aktualisiert am {date}",
+    "sections": [
+      {
+        "h": "Verantwortlicher",
+        "p": "TOMSTROJ, podjetje za inženiring, strojegradnjo in trgovino d.o.o., Podovnice 1, 1357 Notranje Gorice, Slowenien. E-Mail: tomstroj@siol.net, Telefon: +386 41 588 114."
+      },
+      {
+        "h": "Welche Daten wir verarbeiten",
+        "p": "Wenn Sie das Bestell-, Händler- oder Kontaktformular nutzen, verarbeiten wir die eingegebenen Daten: Firmenname, USt-IdNr., Ansprechpartner, E-Mail-Adresse, Telefonnummer, Lieferland und -adresse, Gravurtext und Ihre Nachricht. Zum Spamschutz und zur Begrenzung von Anfragen verarbeiten wir kurzzeitig Ihre IP-Adresse."
+      },
+      {
+        "h": "Zweck und Rechtsgrundlage",
+        "p": "Wir nutzen Formulardaten zur Bearbeitung von Bestellungen und Anfragen: für Auftragsbestätigung und Rechnung, die Organisation der Lieferung und die Beantwortung Ihrer Fragen. Rechtsgrundlage ist die Erfüllung eines Vertrags oder vorvertragliche Maßnahmen (Art. 6 Abs. 1 lit. b DSGVO) sowie unser berechtigtes Interesse, geschäftliche Anfragen zu beantworten und die Website vor Missbrauch zu schützen (Art. 6 Abs. 1 lit. f DSGVO). USt-IdNrn. prüfen wir über das EU-System VIES, um die richtige steuerliche Behandlung anzuwenden (Art. 6 Abs. 1 lit. c DSGVO)."
+      },
+      {
+        "h": "Speicherdauer",
+        "p": "Bestelldaten und Rechnungen bewahren wir so lange auf, wie es das slowenische Steuer- und Handelsrecht verlangt (in der Regel 10 Jahre nach Ende des Jahres der Rechnungsstellung). Anfragen, die zu keiner Bestellung führen, löschen wir innerhalb von 24 Monaten. Daten zur Anfragenbegrenzung liegen höchstens eine Stunde im Arbeitsspeicher."
+      },
+      {
+        "h": "Auftragsverarbeiter",
+        "p": "Resend (E-Mail-Versand), Vercel (Hosting sowie cookielose, aggregierte Analyse) und Cloudflare Turnstile (Spamschutz). Alle handeln in unserem Auftrag auf Grundlage eines Auftragsverarbeitungsvertrags. Einige Auftragsverarbeiter können Daten außerhalb der EU auf Grundlage der EU-Standardvertragsklauseln oder des EU-US Data Privacy Framework verarbeiten."
+      },
+      {
+        "h": "Cookies und Analyse",
+        "p": "Wir nutzen Vercel Web Analytics und Speed Insights; beide arbeiten ohne Cookies und verfolgen Sie nicht über Websites hinweg. Wir setzen keine Tracking-Cookies ein, daher ist kein Cookie-Banner nötig. Cloudflare Turnstile kann beim Absenden eines Formulars ein technisch notwendiges Cookie setzen."
+      },
+      {
+        "h": "Ihre Rechte",
+        "p": "Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch sowie das Recht, eine Einwilligung zu widerrufen. Sie können sich bei der slowenischen Datenschutzbehörde (Informacijski pooblaščenec, www.ip-rs.si) oder bei der Aufsichtsbehörde Ihres Landes beschweren."
+      },
+      {
+        "h": "Kontakt",
+        "p": "Bei Fragen zum Datenschutz schreiben Sie an tomstroj@siol.net."
+      }
+    ]
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "body": "Die gesuchte Seite existiert nicht oder wurde verschoben.",
+    "back": "Zur Startseite"
+  },
+  "alt": {
+    "heroCutout": "Premium Hammer schräg von vorn: verzinnter Kupferkopf, schwarzer Stiel mit Carbongewebe und schwarzer, gerändelter Griff",
+    "angledWhite": "Premium Hammer schräg auf weißem Hintergrund",
+    "angledLongWhite": "Premium Hammer schräg in voller Länge auf weißem Hintergrund",
+    "sideViewWhite": "Premium Hammer in Seitenansicht auf weißem Hintergrund",
+    "detailHead": "Nahaufnahme des gefasten, verzinnten Kupferkopfs",
+    "detailGrip": "Nahaufnahme des gerändelten Griffs aus eloxiertem Aluminium",
+    "detailShaft": "Nahaufnahme des Stiels mit Carbongewebe am Übergang zum Kopf",
+    "caseOpenRender": "Premium Hammer im geöffneten Hartschalenkoffer mit Schaumeinlage",
+    "realHammerOnWood": "Foto des fertigen Premium Hammer auf einer Holzfläche",
+    "realCaseOpen": "Foto des Premium Hammer im geöffneten Hartschalenkoffer",
+    "realCaseClosed": "Foto des geschlossenen schwarzen Hartschalenkoffers",
+    "dimensionsEn": "Maßzeichnung des Premium Hammer mit Gesamt-, Stiel- und Kopflänge sowie Durchmessern",
+    "dimensionsSl": "Maßzeichnung des Premium Hammer mit Gesamt-, Stiel- und Kopflänge sowie Durchmessern",
+    "dimensionsDe": "Maßzeichnung des Premium Hammer mit Gesamt-, Stiel- und Kopflänge sowie Durchmessern",
+    "comparisonVsSteel": "Premium Hammer neben einem Standard-Werkstatthammer aus Stahl",
+    "field01": "Premium Hammer bei der Arbeit an einem Türscharnier",
+    "field02": "Premium Hammer in der Hand, gerändelter Griff in Nahaufnahme",
+    "field03": "Premium Hammer in der Hand auf einer Baustelle, Mauerwerk im Hintergrund",
+    "field04": "Premium Hammer in der Hand auf der Baustelle, Teleskoplader im Hintergrund",
+    "field05": "Premium Hammer in der Hand auf der Baustelle, Teleskoplader im Hintergrund",
+    "field06": "Premium Hammer in der Hand, Gerüst und Team im Hintergrund",
+    "field07": "Premium Hammer im Schwung, mit Bewegungsunschärfe",
+    "sceneCnc": "Hände eines Zerspanungsmechanikers richten ein Werkstück im Schraubstock auf einem CNC-Maschinentisch aus",
+    "sceneBearing": "Ein Lager wird auf einer sauberen Werkbank auf eine Stahlwelle gesetzt",
+    "sceneAutomotive": "Eine Radnabe auf einer Werkbank in einer Kfz-Werkstatt bei warmem Licht",
+    "sceneMaintenance": "Instandhaltungswerkbank in einer Produktionshalle mit ausgelegtem Werkzeug",
+    "sceneElectromech": "Elektromotorgehäuse auf einem Montagetisch",
+    "sceneGift": "Geschlossener schwarzer Hartschalenkoffer auf einem dunklen Holzschreibtisch",
+    "sceneWorkshopWide": "Weite Ansicht einer aufgeräumten Maschinenbauwerkstatt in warmem Licht",
+    "contactMap": "Karte mit dem Standort von Tomstroj d.o.o., Podovnice 1, Notranje Gorice",
+    "unboxingPoster": "Standbild aus dem Auspackvideo: der Hartschalenkoffer vor dem Öffnen"
+  },
+  "captions": {
+    "field01": "Bei der Arbeit an einem Türscharnier",
+    "field02": "In der Hand",
+    "field03": "Auf der Baustelle",
+    "field04": "Auf der Baustelle",
+    "field05": "Auf der Baustelle",
+    "field06": "Auf der Baustelle",
+    "field07": "Im Schwung"
+  }
+}

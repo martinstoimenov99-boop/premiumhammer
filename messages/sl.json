@@ -1,0 +1,854 @@
+{
+  "_review": "Machine-assisted translation — native review required before launch",
+  "meta": {
+    "siteName": "Premium Hammer by Tomstroj",
+    "homeTitle": "Premium kladivo — bakreno montažno kladivo | Tomstroj",
+    "homeDescription": "Bakreno montažno kladivo, 620 g, z aluminijasto karbonskim držalom in eloksiranim narebričenim ročajem. Izdelano v Sloveniji. Od 45 € brez DDV, plačilo po računu.",
+    "hammerTitle": "Bakreno kladivo 620 g — specifikacije in naročilo | Premium Hammer",
+    "hammerDescription": "Bakreno kladivo za ležaje s pokositreno glavo, aluminijasto karbonskim držalom in narebričenim ročajem. 45 € ali 65 € s kovčkom, brez DDV. Brezplačna dostava od 3 kladiv.",
+    "guideTitle": "Bakreno kladivo: kdaj ga uporabiti in kako izbrati | Premium Hammer",
+    "guideDescription": "Praktični vodnik po bakrenih in mehkih kladivih: baker, medenina, najlon in kladiva brez odboja, iskrenje, izbira teže, materiali ročajev in nega.",
+    "dealersTitle": "Prodajalci in B2B — Premium Hammer v vaši ponudbi | Tomstroj",
+    "dealersDescription": "Za dobavitelje industrijske opreme, trgovce z orodjem, opremljevalce delavnic in partnerje za poslovna darila. Zahtevajte paket za prodajalce.",
+    "aboutTitle": "O podjetju Tomstroj — izdelali so ga ljudje, ki gradijo stroje",
+    "aboutDescription": "Premium kladivo prihaja iz podjetja Tomstroj d.o.o., slovenskega podjetja za inženiring in strojegradnjo blizu Ljubljane.",
+    "contactTitle": "Kontakt | Premium Hammer by Tomstroj",
+    "contactDescription": "Tomstroj d.o.o., Podovnice 1, 1357 Notranje Gorice, Slovenija. Telefon, e-pošta, delovni čas in kontaktni obrazec.",
+    "privacyTitle": "Politika zasebnosti | Premium Hammer",
+    "privacyDescription": "Kako Tomstroj d.o.o. obdeluje podatke, ki jih pošljete prek premiumhammer.com.",
+    "imprintTitle": "Pravno obvestilo | Premium Hammer",
+    "imprintDescription": "Podatki o podjetju TOMSTROJ d.o.o., upravljavcu spletnega mesta premiumhammer.com.",
+    "thanksTitle": "Naročilo prejeto | Premium Hammer",
+    "thanksDescription": "Hvala za vaše naročilo.",
+    "notFoundTitle": "Stran ne obstaja | Premium Hammer",
+    "ogTagline": "Bakreno montažno kladivo · Izdelano v Sloveniji",
+    "ogPrice": "od {price} brez DDV"
+  },
+  "nav": {
+    "skip": "Preskoči na vsebino",
+    "home": "Domov",
+    "hammer": "Kladivo",
+    "industries": "Panoge",
+    "guide": "Vodnik",
+    "dealers": "Prodajalci",
+    "about": "O nas",
+    "contact": "Kontakt",
+    "order": "Naročilo",
+    "menu": "Meni",
+    "openMenu": "Odpri meni",
+    "closeMenu": "Zapri meni",
+    "language": "Jezik",
+    "mainNav": "Glavna navigacija",
+    "breadcrumb": "Drobtinice",
+    "homeLink": "Premium Hammer by Tomstroj — domov"
+  },
+  "common": {
+    "exclVat": "brez DDV",
+    "from": "od",
+    "pricesExclVat": "Cene ne vključujejo DDV",
+    "freeShipping": "Brezplačna dostava od 3 kladiv na naročilo podjetja",
+    "freeShippingShort": "Brezplačna dostava od 3 kladiv",
+    "madeInSlovenia": "Izdelano v Sloveniji",
+    "payByInvoice": "Plačilo po računu",
+    "orderNow": "Naročite zdaj",
+    "order": "Naročite",
+    "orderYours": "Naročite svoje",
+    "seeSpecs": "Specifikacije",
+    "seeHammer": "Oglejte si kladivo",
+    "getInTouch": "Pišite nam",
+    "learnMore": "Več o tem",
+    "readGuide": "Preberite vodnik",
+    "approx": "≈",
+    "placeholder": "Slika bo kmalu na voljo",
+    "placeholderFile": "Datoteka: {file}",
+    "close": "Zapri",
+    "previous": "Prejšnja slika",
+    "next": "Naslednja slika",
+    "openImage": "Odpri sliko {n} od {total}",
+    "showImage": "Prikaži sliko {n}",
+    "imageOf": "Slika {n} od {total}",
+    "lightbox": "Pregledovalnik slik",
+    "comingSoon": "Kmalu na voljo",
+    "download": "Prenos",
+    "byTomstroj": "by Tomstroj"
+  },
+  "footer": {
+    "tagline": "En izdelek, narejen pošteno. Bakreno montažno kladivo, zasnovano in sestavljeno v Sloveniji.",
+    "addressLabel": "Naslov",
+    "contactLabel": "Kontakt",
+    "hoursLabel": "Delovni čas",
+    "navLabel": "Stran",
+    "legalLabel": "Pravno",
+    "privacy": "Zasebnost",
+    "imprint": "Pravno obvestilo",
+    "rights": "© {year} Tomstroj d.o.o. Vse pravice pridržane."
+  },
+  "company": {
+    "country": "Slovenija",
+    "monFri": "Ponedeljek–petek",
+    "sat": "Sobota",
+    "hours": "{days} {open}–{close}"
+  },
+  "product": {
+    "name": "Premium kladivo",
+    "weight": "Teža",
+    "head": "Glava",
+    "shaft": "Držalo",
+    "grip": "Ročaj",
+    "overallLength": "Skupna dolžina",
+    "handleLength": "Dolžina držala (z ročajem)",
+    "headLength": "Dolžina glave",
+    "headDiameter": "Premer glave",
+    "gripDiameter": "Premer ročaja",
+    "onImpact": "Pri udarcu",
+    "madeIn": "Izdelano v",
+    "priceNoCase": "Cena brez kovčka",
+    "priceCase": "Cena s kovčkom",
+    "priceCaseNote": "trd kovček s peno",
+    "shipping": "Dostava",
+    "shippingValue": "Brezplačna za 3 ali več kladiv v enem naročilu podjetja; sicer jo ponudimo s potrditvijo naročila",
+    "certification": "Certifikacija",
+    "certificationValue": "Ni certificirano po ATEX/BAM — preučujemo testiranje BAM za uporabo v Ex-conah",
+    "dimensionsEstimate": "Mere so približne.",
+    "variant": {
+      "nocase": {
+        "name": "Brez kovčka",
+        "line": "Kladivo, pripravljeno za zabojnik z orodjem.",
+        "short": "brez kovčka"
+      },
+      "case": {
+        "name": "S kovčkom",
+        "line": "Trd kovček s peno — za kombi, polico ali za darilo.",
+        "short": "s kovčkom"
+      }
+    }
+  },
+  "certification": {
+    "note": "Premium kladivo ni certificirano za uporabo v eksplozijsko ogroženih atmosferah ATEX. Preučujemo testiranje BAM za uporabo v Ex-conah; do takrat preverite primernost glede na pravila protieksplozijske zaščite na vaši lokaciji.",
+    "label": "Status certifikacije"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Baker · Karbon · Aluminij",
+      "title": "Premium Hammer",
+      "lead": "Bakreno montažno kladivo, 620 g, z aluminijasto karbonskim držalom. Udari odločno in prizanese delu.",
+      "priceChip": "od {price} · brez DDV",
+      "trust": "Izdelano v Sloveniji · Brezplačna dostava od 3 kladiv · Plačilo po računu"
+    },
+    "specStrip": {
+      "label": "Ključne specifikacije",
+      "weight": "skupna teža",
+      "headValue": "Baker",
+      "head": "pokositrena glava",
+      "shaftValue": "Aluminij-karbon",
+      "shaft": "držalo",
+      "gripValue": "Eloksiran",
+      "grip": "narebričen ročaj"
+    },
+    "what": {
+      "title": "Za trenutke, ko bi jeklo naredilo škodo",
+      "body": "Ležaje, puše, zatiče, ohišja, vpenjala in končne površine je treba namestiti brez vdolbine. Premium kladivo zada odločen, nadzorovan udarec prek pokositrene bakrene čelne ploskve, ki popusti, preden popusti del. Aluminijasto karbonsko držalo ohranja težo tam, kjer jo potrebujete — v glavi —, eloksiran narebričen ročaj pa ostane trdno v roki tudi z oljem, emulzijo ali vodo na dlaneh.",
+      "small": "Baker pri udarcu ne iskri."
+    },
+    "why": {
+      "eyebrow": "Konstrukcija",
+      "title": "Vsak material ima svojo nalogo.",
+      "copper": {
+        "title": "Bakrena čelna ploskev",
+        "body": "Mehkejša od jekla, ki ga udarja, zato ležaji, gredi in končne površine ohranijo obliko."
+      },
+      "shaft": {
+        "title": "Aluminijasto karbonsko držalo",
+        "body": "Lahko in togo, zato je kladivo uravnoteženo in natančno tudi skozi dolgo izmeno."
+      },
+      "grip": {
+        "title": "Eloksiran narebričen ročaj",
+        "body": "Strojno izdelan vzorec drži v olju, emulziji in vodi, kjer gumijasti ročaji postanejo spolzki."
+      },
+      "tin": {
+        "title": "Pokositrena glava",
+        "body": "Zaščitna plast upočasni korozijo, da baker ostane videti kot orodje, za katero skrbite."
+      }
+    },
+    "industries": {
+      "eyebrow": "Panoge",
+      "title": "Kjer si zasluži svoje mesto."
+    },
+    "details": {
+      "eyebrow": "Podrobnosti",
+      "title": "Poglejte od blizu.",
+      "head": "Posneta bakrena glava",
+      "grip": "Narebričen eloksiran aluminijast ročaj",
+      "shaft": "Držalo iz aluminija s karbonskim tkanjem",
+      "case": "Trd kovček s peno",
+      "dimensions": "Mere in konstrukcija"
+    },
+    "field": {
+      "eyebrow": "Na terenu",
+      "title": "Prave fotografije. Brez upodobitev.",
+      "lead": "Končano kladivo, fotografirano na gradbišču in pri delu."
+    },
+    "compare": {
+      "eyebrow": "Primerjava",
+      "title": "Pošteno o tem, kam sodi.",
+      "footnote": "Primerjava na podlagi javnih spletnih ponudb v EU, november 2026."
+    },
+    "trust": {
+      "eyebrow": "Zaupanje",
+      "title": "V uporabi pri",
+      "credential1": "Zasnoval in izdelal Tomstroj, podjetje za inženiring in strojegradnjo blizu Ljubljane.",
+      "credential2": "Vsako kladivo sestavimo in preverimo v Sloveniji, preden ga odpošljemo.",
+      "offerTitle": "Delavnice ustanoviteljice",
+      "offerBody": "Prvih 20 delavnic, ki naročijo, dobi brezplačno gravuro imena podjetja."
+    },
+    "faq": {
+      "eyebrow": "Vprašanja",
+      "title": "Odgovori na vaša vprašanja."
+    },
+    "final": {
+      "title": "Naročite svoje"
+    }
+  },
+  "industries": {
+    "cnc": {
+      "title": "CNC in strojna obdelava",
+      "body": "Nameščanje obdelovancev v primež in vpenjala, ne da bi poškodovali del ali čeljusti."
+    },
+    "bearing": {
+      "title": "Montaža ležajev in strojev",
+      "body": "Nameščanje ležajev, puš in zatičev z odločnim udarcem, ki prizanese ležišču."
+    },
+    "automotive": {
+      "title": "Avtomehanične delavnice",
+      "body": "Pesta, deli podvozja in komponente iz lahkih zlitin, ki bi jih jeklo opraskalo."
+    },
+    "maintenance": {
+      "title": "Vzdrževanje v proizvodnji",
+      "body": "Kladivo za vzdrževalno mizo: poravnavanje, nastavljanje in sproščanje delov v proizvodnih halah."
+    },
+    "electromech": {
+      "title": "Precizna elektromehanika",
+      "body": "Motorji, ohišja in sklopi, kjer šteje nežen, natančen udarec."
+    },
+    "gift": {
+      "title": "Darilo za strokovnjake",
+      "body": "Dobavljeno v trdem kovčku, po želji z gravuro; orodje, ki ga ljudje res obdržijo."
+    }
+  },
+  "compareTable": {
+    "caption": "Premium kladivo v primerjavi z običajnimi bakrenimi kladivi",
+    "ours": "Premium Hammer",
+    "wood": "Običajno bakreno kladivo z lesenim ročajem",
+    "composite": "Običajno bakreno kladivo s kompozitnim ročajem",
+    "rows": {
+      "handle": {
+        "label": "Ročaj",
+        "ours": "Aluminijasto karbonsko držalo, eloksiran aluminijast ročaj",
+        "wood": "Jesen ali hikori",
+        "composite": "Kompozit s steklenimi vlakni"
+      },
+      "grip": {
+        "label": "Oprijem v olju in vodi",
+        "ours": "Narebričena kovina, drži",
+        "wood": "Lakiran les, drsi",
+        "composite": "Elastomer, različno"
+      },
+      "weight": {
+        "label": "Teža",
+        "ours": "{weight}",
+        "wood": "500–1000 g",
+        "composite": "600–1500 g"
+      },
+      "case": {
+        "label": "Kovček",
+        "ours": "Trd kovček po izbiri",
+        "wood": "Ne",
+        "composite": "Ne"
+      },
+      "price": {
+        "label": "Cena",
+        "ours": "{prices} brez DDV",
+        "wood": "Običajno nižja",
+        "composite": "Običajno višja"
+      }
+    }
+  },
+  "steelCompare": {
+    "eyebrow": "Baker ali jeklo",
+    "title": "Ob običajnem delavniškem kladivu",
+    "imageCaption": "Premium kladivo ob običajnem jeklenem delavniškem kladivu",
+    "caption": "Premium kladivo v primerjavi z običajnim jeklenim delavniškim kladivom",
+    "ours": "Premium Hammer",
+    "steel": "Običajno jekleno delavniško kladivo",
+    "rows": {
+      "head": {
+        "label": "Glava",
+        "ours": "Baker, pokositren",
+        "steel": "Kaljeno jeklo"
+      },
+      "marks": {
+        "label": "Poškoduje del",
+        "ours": "Bakrena ploskev popusti prva; ležaji, gredi in končne površine ohranijo obliko",
+        "steel": "Lahko vdolbe ležaje, gredi in končne površine"
+      },
+      "impact": {
+        "label": "Pri udarcu",
+        "ours": "Baker ne iskri",
+        "steel": "Jeklo ob jeklu lahko iskri"
+      },
+      "handle": {
+        "label": "Ročaj",
+        "ours": "Aluminijasto karbonsko držalo",
+        "steel": "Jedro iz steklenih vlaken s plastično ali gumijasto oblogo"
+      },
+      "grip": {
+        "label": "Oprijem z oljem ali vodo",
+        "ours": "Strojna narebričenost ohranja oprijem",
+        "steel": "Gladke obloge lahko postanejo spolzke"
+      },
+      "storage": {
+        "label": "Shranjevanje",
+        "ours": "Trd kovček s peno po izbiri",
+        "steel": "Brez"
+      },
+      "use": {
+        "label": "Primerno za",
+        "ours": "Montažo, poravnavanje, nameščanje delov, precizno delo",
+        "steel": "Izbijače, dleta, žeblje, splošno težko udarjanje"
+      },
+      "price": {
+        "label": "Cena",
+        "ours": "{prices} brez DDV",
+        "steel": "Običajno nižja"
+      }
+    },
+    "footnote": "Različna dela, različna orodja. Jekleno kladivo je še vedno prava izbira za izbijače in dleta; Premium kladivo je za dele, ki jih ne smete poškodovati."
+  },
+  "customers": {
+    "label": "Podjetja, ki uporabljajo Premium kladivo",
+    "ekoling": "Hrušica, Slovenija · Član skupine Roto",
+    "eoat": "Ljubljana, Slovenija · Prijemala za robotske roke",
+    "tehkom": "Kočani, Severna Makedonija · Kovinska obdelava",
+    "trelleborg": "Kranj, Slovenija · Inženirske polimerne rešitve",
+    "scorpion": "Avtomehanika",
+    "mebelvi": "Severna Makedonija · Proizvodnja pohištva",
+    "bikerguard": "Ljubljana, Slovenija · Proizvajalec električnih brisalcev"
+  },
+  "video": {
+    "title": "Prva dostava, razpakirana",
+    "caption": "Iz škatle: kovček, kladivo, prvi zamah.",
+    "unsupported": "Vaš brskalnik ne more predvajati tega videa."
+  },
+  "faq": {
+    "home": [
+      {
+        "q": "Ali kladivo iskri?",
+        "a": "Baker pri udarcu ne iskri, zato se bakrena kladiva uporabljajo pri montaži in vzdrževanju. Premium kladivo še ni certificirano za Ex-cone ATEX; preučujemo testiranje BAM."
+      },
+      {
+        "q": "Ali se bakrena ploskev obrabi?",
+        "a": "Da. Baker je namenoma mehkejši od jekla, zato se ploskev pri močni uporabi deformira. Prav to ščiti vaše dele."
+      },
+      {
+        "q": "Kakšna je razlika med različicama?",
+        "a": "Gre za isto kladivo. Različica za 65 € je dobavljena v trdem zaščitnem kovčku s peno."
+      },
+      {
+        "q": "Ali cene vključujejo DDV?",
+        "a": "Ne. Cene ne vključujejo DDV, ki ga po veljavni stopnji obračunamo na računu. Podjetjem iz EU izven Slovenije z veljavno ID-številko za DDV izdamo račun po sistemu obrnjene davčne obveznosti."
+      },
+      {
+        "q": "Koliko stane dostava?",
+        "a": "Za 3 ali več kladiv v enem naročilu podjetja je brezplačna. Za 1–2 kladivi vam ceno dostave sporočimo s potrditvijo naročila."
+      },
+      {
+        "q": "Ali sodelujete s prodajalci?",
+        "a": "Da. Oglejte si stran za prodajalce ali zahtevajte paket za prodajalce."
+      }
+    ],
+    "product": [
+      {
+        "q": "Čemu služi kositrna prevleka?",
+        "a": "Ščiti baker pred korozijo in razbarvanjem."
+      },
+      {
+        "q": "Kako se ročaj obnese z oljem?",
+        "a": "Strojna narebričenost ohranja oprijem z oljem, emulzijo ali vodo, kjer gladki ali gumijasti ročaji drsijo."
+      },
+      {
+        "q": "Ali je ploskev mogoče obnoviti?",
+        "a": "Manjšo obrabo lahko popravite s pilo. Močno deformirana glava pomeni, da je čas za novo kladivo."
+      },
+      {
+        "q": "Ali lahko vgraviramo ime podjetja?",
+        "a": "Da. Vpišite ga v naročilnico; gravuro potrdimo po e-pošti."
+      },
+      {
+        "q": "Kako plačam?",
+        "a": "Z bančnim nakazilom na podlagi računa. Račun pošljemo skupaj s potrditvijo naročila."
+      },
+      {
+        "q": "Kako hitro odpošljete?",
+        "a": "Datum odpreme potrdimo s potrditvijo naročila, v enem delovnem dnevu od naročila."
+      }
+    ]
+  },
+  "hammer": {
+    "eyebrow": "By Tomstroj · Izdelano v Sloveniji",
+    "title": "Premium Hammer",
+    "lead": "Bakreno montažno kladivo, 620 g, z aluminijasto karbonskim držalom in eloksiranim narebričenim ročajem.",
+    "variantLegend": "Izberite različico",
+    "quantity": "Količina",
+    "decrease": "Zmanjšaj količino",
+    "increase": "Povečaj količino",
+    "freeShippingLive": "3 ali več: brezplačna dostava",
+    "orderCta": "Naročite",
+    "perks": "Plačilo po računu · Dostava po EU in Zahodnem Balkanu · Gravura po želji",
+    "galleryLabel": "Slike izdelka",
+    "specs": {
+      "eyebrow": "Specifikacije",
+      "title": "Specifikacije",
+      "caption": "Specifikacije Premium kladiva"
+    },
+    "box": {
+      "title": "Vsebina paketa",
+      "hammer": "Premium kladivo",
+      "case": "Trd kovček s peno (različica za {price})",
+      "card": "Kartica za nego"
+    },
+    "uses": {
+      "eyebrow": "Uporaba",
+      "title": "Narejeno za šest vrst dela"
+    },
+    "care": {
+      "eyebrow": "Nega in obraba",
+      "title": "Baker je namenjen temu, da popusti.",
+      "body": "Bakrena ploskev je namenoma mehkejša od jekla. Pri močni uporabi se razpre in deformira — prav to ščiti vaše dele. Glavo hranite čisto in suho; z rahlim pilenjem ploskev obnovite. Ko je ploskev močno obrabljena ali se glava na držalu zrahlja, kladiva ne uporabljajte več in se obrnite na nas."
+    },
+    "faqTitle": "Vprašanja o izdelku",
+    "orderEyebrow": "Naročilo",
+    "orderTitle": "Oddajte naročilo",
+    "orderLead": "Brez košarice in spletnega plačila. Pošljite obrazec, naročilo potrdimo po e-pošti in vam pošljemo račun."
+  },
+  "form": {
+    "required": "obvezno",
+    "optional": "neobvezno",
+    "variant": "Različica",
+    "quantity": "Količina",
+    "company": "Ime podjetja",
+    "vatId": "ID-številka za DDV",
+    "vatHint": "Podjetja iz EU: vpišite s predpono države, npr. SI12345678.",
+    "vatChecking": "Preverjam v sistemu VIES …",
+    "vatValid": "ID-številka za DDV je veljavna v sistemu VIES",
+    "vatValidName": "ID-številka za DDV je veljavna v sistemu VIES: {name}",
+    "vatInvalid": "ID-številke za DDV v sistemu VIES ni mogoče najti. Naročilo lahko vseeno pošljete.",
+    "vatUnavailable": "Sistem VIES trenutno ni dosegljiv. Naročilo lahko vseeno pošljete; številko preverimo ročno.",
+    "vatNotEu": "To ni ID-številka za DDV iz EU — preverjanje v sistemu VIES ni potrebno.",
+    "contactName": "Kontaktna oseba",
+    "email": "E-pošta",
+    "phone": "Telefon",
+    "country": "Država dostave",
+    "countryPlaceholder": "Izberite državo",
+    "address": "Naslov za dostavo",
+    "addressHint": "Ulica, poštna številka, kraj",
+    "engraving": "Dodaj gravuro",
+    "engravingText": "Besedilo gravure",
+    "engravingHint": "Največ {max} znakov. Gravuro potrdimo po e-pošti.",
+    "message": "Sporočilo",
+    "consent": "Strinjam se s <link>politiko zasebnosti</link>",
+    "submit": "Pošlji naročilo",
+    "submitting": "Pošiljam …",
+    "website": "Spletna stran",
+    "country2": "Država",
+    "type": "Vrsta podjetja",
+    "typePlaceholder": "Izberite vrsto",
+    "types": {
+      "distributor": "Distributer",
+      "retailer": "Trgovec na drobno",
+      "online": "Spletna trgovina",
+      "gifts": "Poslovna darila",
+      "other": "Drugo"
+    },
+    "volume": "Pričakovana letna količina",
+    "volumePlaceholder": "Izberite razpon",
+    "volumes": {
+      "v1": "Manj kot 50 kladiv",
+      "v2": "50–200 kladiv",
+      "v3": "200–1000 kladiv",
+      "v4": "Več kot 1000 kladiv",
+      "unknown": "Še ne vem"
+    },
+    "name": "Ime",
+    "topic": "Tema",
+    "topicPlaceholder": "Izberite temo",
+    "topics": {
+      "order": "Naročilo",
+      "dealer": "Prodajalci",
+      "engraving": "Gravura",
+      "other": "Drugo"
+    },
+    "dealerSubmit": "Zahtevajte paket za prodajalce",
+    "contactSubmit": "Pošlji sporočilo",
+    "turnstile": "Zaščita pred neželeno pošto",
+    "errors": {
+      "summary": "Preverite označena polja.",
+      "required": "To polje je obvezno.",
+      "email": "Vpišite veljaven e-poštni naslov.",
+      "quantity": "Vpišite količino od {min} do {max}.",
+      "engraving": "Besedilo gravure: od 1 do {max} znakov.",
+      "consent": "Strinjati se morate s politiko zasebnosti.",
+      "country": "Izberite državo s seznama.",
+      "url": "Vpišite veljaven spletni naslov.",
+      "turnstile": "Preverjanje proti neželeni pošti ni uspelo. Poskusite znova.",
+      "rateLimit": "Z vaše povezave je bilo poslanih preveč obrazcev. Poskusite znova čez eno uro ali nam pišite.",
+      "send": "Sporočila ni bilo mogoče poslati. Poskusite znova ali nam pišite na {email}.",
+      "tooLong": "Besedilo je predolgo."
+    },
+    "dealerSuccess": "Hvala. Paket za prodajalce vam pošljemo na {email} v enem delovnem dnevu.",
+    "contactSuccess": "Hvala. Odgovorili vam bomo na {email} v enem delovnem dnevu."
+  },
+  "summary": {
+    "title": "Povzetek naročila",
+    "line": "{variant} × {qty}",
+    "subtotal": "Vmesni seštevek brez DDV",
+    "shipping": "Dostava",
+    "shippingFree": "Brezplačna",
+    "shippingQuoted": "Ponudimo jo s potrditvijo",
+    "vatNote": "DDV obračunamo na računu",
+    "engraving": "Gravura",
+    "engravingValue": "»{text}«"
+  },
+  "thanks": {
+    "eyebrow": "Naročilo prejeto",
+    "title": "Hvala za vaše naročilo",
+    "ref": "Številka naročila",
+    "body": "Potrditev smo poslali na vaš e-poštni naslov. Račun vam pošljemo in odpremo potrdimo v enem delovnem dnevu.",
+    "noRef": "Če potrditvenega sporočila ne prejmete v nekaj minutah, preverite mapo z neželeno pošto ali se obrnite na nas.",
+    "back": "Nazaj na kladivo",
+    "contact": "Vprašanja? Pokličite {phone} ali pišite na {email}."
+  },
+  "email": {
+    "orderSubject": "Vaše naročilo Premium Hammer {ref}",
+    "orderPreview": "Hvala — naročilo {ref} smo prejeli.",
+    "hello": "Pozdravljeni, {name},",
+    "thanks": "hvala za vaše naročilo. Spodaj je povzetek.",
+    "next": "Račun vam pošljemo in odpremo potrdimo v enem delovnem dnevu.",
+    "ref": "Številka naročila",
+    "regards": "Lep pozdrav,",
+    "team": "Tomstroj d.o.o.",
+    "dealerSubject": "Vaša zahteva za paket za prodajalce Premium Hammer",
+    "dealerBody": "Hvala za zanimanje za prodajo Premium kladiva. Paket za prodajalce vam pošljemo v enem delovnem dnevu.",
+    "contactSubject": "Prejeli smo vaše sporočilo",
+    "contactBody": "Hvala za vaše sporočilo. Odgovorili vam bomo v enem delovnem dnevu."
+  },
+  "guide": {
+    "eyebrow": "Vodnik",
+    "title": "Bakreno kladivo: kdaj ga uporabiti in kako izbrati",
+    "lead": "Bakreno kladivo je mehko kladivo: udari odločno, a popusti, preden popusti del. Kdaj poseči po njem, kako se baker primerja z medenino, najlonom in kladivi brez odboja ter na kaj biti pozoren pri nakupu.",
+    "updated": "Posodobljeno {date}",
+    "byline": "Avtor: Tomstroj d.o.o.",
+    "toc": "Na tej strani",
+    "s1": {
+      "title": "Čemu je namenjeno bakreno kladivo",
+      "p1": "Bakreno kladivo je narejeno za udarjanje z mehko čelno ploskvijo. Baker je mehkejši od kaljenega jekla, zato se ob stiku z obročem ležaja, koncem gredi ali obdelano površino najprej deformira baker, del pa ohrani obliko.",
+      "p2": "Zato je to kladivo za montažo in poravnavanje: nameščanje ležajev in puš, vstavljanje obdelovancev v primež, zabijanje zatičev, poravnavanje ohišij ali sproščanje zagozdenih delov brez sledi. V vzdrževalnih delavnicah ga zato pogosto imenujejo kar kladivo za ležaje."
+    },
+    "s2": {
+      "title": "Baker, medenina, najlon ali kladivo brez odboja",
+      "p1": "Mehka kladiva zamenjajo trdoto za zaščito. Mehkejša kot je ploskev, manj poškoduje — in manj sile prenese.",
+      "caption": "Primerjava vrst mehkih kladiv",
+      "col": {
+        "type": "Ploskev",
+        "hardness": "Trdota ploskve",
+        "marking": "Tveganje poškodb",
+        "rebound": "Odboj",
+        "use": "Tipična uporaba"
+      },
+      "rows": {
+        "copper": {
+          "type": "Baker",
+          "hardness": "Mehka kovina",
+          "marking": "Nizko",
+          "rebound": "Majhen",
+          "use": "Ležaji, gredi, zatiči, montaža in poravnavanje"
+        },
+        "brass": {
+          "type": "Medenina",
+          "hardness": "Trša od bakra",
+          "marking": "Nizko do srednje",
+          "rebound": "Srednji",
+          "use": "Izbijači na mehkejših jeklih, splošno vzdrževanje"
+        },
+        "nylon": {
+          "type": "Najlon / plastika",
+          "hardness": "Mehak polimer",
+          "marking": "Zelo nizko",
+          "rebound": "Srednji do velik",
+          "use": "Pločevina, končne in lakirane površine, lažja montaža"
+        },
+        "deadblow": {
+          "type": "Brez odboja",
+          "hardness": "Polimerni plašč, polnjen s šibrami",
+          "marking": "Zelo nizko",
+          "rebound": "Zelo majhen",
+          "use": "Nameščanje delov, kjer odboj ni dopusten"
+        }
+      },
+      "p2": "Baker je na sredini: prenese več udarca kot najlon ali guma, poškoduje veliko manj kot jeklo ali medenina in se le malo odbija."
+    },
+    "s3": {
+      "title": "Ali baker iskri?",
+      "p1": "Baker pri udarcu ne ustvarja vročih isker kot jeklo, zato se bakreno orodje uporablja v bližini vnetljivih snovi.",
+      "p2": "Toda certificirano orodje za eksplozijsko ogrožene atmosfere se preizkusi in odobri posebej; bakreno kladivo ni samodejno odobreno za Ex-cone. Preden katero koli kladivo uporabite na nevarnem območju, preverite dokument o protieksplozijski zaščiti svoje lokacije."
+    },
+    "s4": {
+      "title": "Izbira teže",
+      "items": [
+        "300–500 g za fino montažo: majhni zatiči, ohišja instrumentov, rahlo poravnavanje.",
+        "500–800 g za splošno delavniško uporabo: ležaji, puše, primeži in vpenjala.",
+        "1 kg in več za težko nameščanje: veliki ležaji, sklopke in velika ohišja."
+      ],
+      "p1": "S 620 g sodi Premium kladivo v razred splošne delavniške uporabe."
+    },
+    "s5": {
+      "title": "Materiali ročajev",
+      "items": [
+        "Les (jesen, hikori): lahek in topel v roki, a lakiran les v olju drsi in se lahko zrahlja, ko se izsuši.",
+        "Steklena vlakna: vzdržljiva in blažijo udarce; običajno z gumijasto ali plastično oblogo, ki lahko v olju postane spolzka.",
+        "Kompozit: polimer, ojačan s steklenimi ali ogljikovimi vlakni, pogosto z elastomernim ročajem; obnašanje v olju je odvisno od ročaja.",
+        "Aluminij-karbon: togo, lahko držalo, ki ohranja težo v glavi; z narebričenim kovinskim ročajem drži v olju, emulziji in vodi."
+      ]
+    },
+    "s6": {
+      "title": "Nega bakrenega kladiva",
+      "p1": "Baker je namenjen temu, da popusti, zato se ploskev z uporabo razpre. Glavo hranite čisto in suho. Manjše robove in razprtje popravite s pilo, da je ploskev spet ravna.",
+      "p2": "Kladivo — ali glavo, kjer to omogoča konstrukcija — zamenjajte, ko je ploskev močno deformirana ali razpokana ali ko se glava na ročaju zrahlja."
+    },
+    "cta": {
+      "title": "Bakreno kladivo, narejeno za delavnico",
+      "body": "Premium kladivo: 620 g, pokositrena bakrena glava, aluminijasto karbonsko držalo, eloksiran narebričen ročaj."
+    }
+  },
+  "dealers": {
+    "hero": {
+      "eyebrow": "Prodajalci in B2B",
+      "title": "Ponudite Premium Hammer",
+      "lead": "Za dobavitelje industrijske opreme, trgovce z orodjem, opremljevalce delavnic in partnerje za poslovna darila po Evropi.",
+      "cta": "Zahtevajte paket za prodajalce"
+    },
+    "why": {
+      "eyebrow": "Zakaj v ponudbo",
+      "title": "Izdelek z jasnim mestom na polici",
+      "c1": {
+        "title": "Format, ki ga katalogi redko imajo",
+        "body": "Format, ki ga veliki katalogi nimajo — bakrena glava, aluminijasto karbonsko držalo, predstavitveni kovček."
+      },
+      "c2": {
+        "title": "Neposredno od proizvajalca",
+        "body": "Izdelano v Sloveniji, kratki dobavni roki, neposreden stik s proizvajalcem."
+      },
+      "c3": {
+        "title": "Embalaža, ki prodaja",
+        "body": "Embalaža, ki se proda sama — na pultu, na fotografiji v katalogu ali kot darilo."
+      }
+    },
+    "market": {
+      "eyebrow": "Pozicioniranje",
+      "title": "Kam sodi na trgu",
+      "lead": "Cene so preračunane na gram, da so primerljive; vsi zneski vključujejo DDV za enakovredno primerjavo.",
+      "caption": "Razponi iz javnih spletnih ponudb v EU, november 2026. Premium kladivo je nad kladivi z lesenim ročajem in pod premium kladivi s kompozitnim ročajem.",
+      "col": {
+        "type": "Vrsta izdelka",
+        "weight": "Tipična teža",
+        "retail": "Tipična maloprodajna cena z DDV",
+        "perGram": "€ na gram"
+      },
+      "rows": {
+        "wood600": "Bakreno kladivo z lesenim ročajem",
+        "wood1000": "Bakreno kladivo z lesenim ročajem",
+        "oursNoCase": "Premium kladivo, brez kovčka",
+        "oursCase": "Premium kladivo, s kovčkom",
+        "composite600": "Bakreno kladivo s kompozitnim ročajem, ojačanim z ogljikovimi vlakni"
+      },
+      "vatNote": "({net} + {rate} % DDV SI)"
+    },
+    "get": {
+      "eyebrow": "Paket za prodajalce",
+      "title": "Kaj dobijo prodajalci",
+      "items": [
+        "List izdelka v EN / SL / DE",
+        "Izrezi izdelka in fotografije v visoki ločljivosti",
+        "Grafika z merami",
+        "Kode EAN in mere kartonov",
+        "Cenik za prodajalce na zahtevo"
+      ]
+    },
+    "sizes": {
+      "title": "Velikosti naročil",
+      "caption": "Velikosti naročil za prodajalce",
+      "col": {
+        "size": "Velikost naročila",
+        "qty": "Količina",
+        "price": "Cena"
+      },
+      "sample": "Vzorec",
+      "sampleQty": "1 kladivo",
+      "starter": "Začetni karton",
+      "starterQty": "Na zahtevo",
+      "volume": "Večje količine",
+      "volumeQty": "50+ kladiv",
+      "onRequest": "Cena na zahtevo"
+    },
+    "label": {
+      "title": "Lastna blagovna znamka in gravura",
+      "body": "Imena in logotipi podjetij, vgravirani na držalo ali ročaj; embalaža lastne blagovne znamke za kataloške partnerje na zahtevo."
+    },
+    "downloads": {
+      "title": "Prenosi",
+      "en": "Brošura (angleščina, PDF)",
+      "sl": "Brošura (slovenščina, PDF)",
+      "de": "Brošura (nemščina, PDF)"
+    },
+    "form": {
+      "eyebrow": "Paket za prodajalce",
+      "title": "Zahtevajte paket za prodajalce",
+      "lead": "Povejte nam kaj o svojem podjetju. Odgovorimo v enem delovnem dnevu."
+    }
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "O podjetju Tomstroj",
+      "title": "Izdelali so ga ljudje, ki gradijo stroje",
+      "lead": "Premium kladivo prihaja iz podjetja Tomstroj, slovenskega podjetja za inženiring in strojegradnjo blizu Ljubljane."
+    },
+    "who": {
+      "title": "Kdo smo",
+      "body": "Tomstroj d.o.o. — s polnim imenom podjetje za inženiring, strojegradnjo in trgovino — načrtuje in gradi stroje in mehanske sisteme na sedežu v Notranjih Goricah, z drugo delavnico na Vrhniki. Delo sega od inženiringa in konstruiranja do izdelave, hidravlike, elektrike in montaže."
+    },
+    "building": {
+      "title": "Kaj razvijamo",
+      "body": "Poleg pogodbenega inženiringa Tomstroj razvija tudi lastne izdelke. Prvi je <b>TIFCO</b>, mobilni stiskalnik odpadkov za hotele in profesionalne kuhinje: deluje na običajni enofazni vtičnici, polno vrečo stisne v približno 30 sekundah in stisnjene odpadke odloži naravnost v zabojnik. TIFCO je v končni fazi testiranja."
+    },
+    "why": {
+      "title": "Zakaj kladivo",
+      "body": "Pri montaži potrebujete kladivo, ki udari odločno, ne da bi poškodovalo ležaje, gredi ali končne dele. Bakrena kladiva, ki smo jih lahko kupili, so imela težke lesene ročaje, ki so v olju drseli. Zato smo naredili svoje: bakreno glavo, aluminijasto karbonsko držalo in strojno izdelan ročaj. Druge delavnice so ga želele tudi zase. Premium kladivo je rezultat — en izdelek, narejen pošteno."
+    },
+    "made": {
+      "title": "Izdelano v Sloveniji",
+      "lead": "Inženiring, izdelava in montaža pod eno streho v Notranjih Goricah in na Vrhniki."
+    },
+    "cta": {
+      "title": "En izdelek, narejen pošteno."
+    }
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "title": "Pogovorite se s proizvajalcem",
+    "lead": "Naročila, vprašanja prodajalcev, gravure ali karkoli drugega — odgovorimo v enem delovnem dnevu.",
+    "address": "Naslov",
+    "phoneEmail": "Telefon in e-pošta",
+    "hours": "Delovni čas",
+    "map": "Odpri v Google Zemljevidih",
+    "mapAlt": "Zemljevid z lokacijo Tomstroj d.o.o., Podovnice 1, Notranje Gorice",
+    "formTitle": "Pošljite nam sporočilo"
+  },
+  "imprint": {
+    "title": "Pravno obvestilo",
+    "company": "Podjetje",
+    "address": "Sedež",
+    "unit": "Poslovna enota",
+    "reg": "Matična številka",
+    "vat": "ID-številka za DDV",
+    "contact": "Kontakt",
+    "responsible": "Odgovoren za vsebino",
+    "responsibleValue": "Tomstroj d.o.o.",
+    "disputes": "Spletno reševanje sporov",
+    "disputesBody": "Prodajamo samo podjetjem. Nismo zavezani in ne sodelujemo v postopkih reševanja potrošniških sporov."
+  },
+  "privacy": {
+    "title": "Politika zasebnosti",
+    "status": "TODO: pravni pregled",
+    "updated": "Zadnja posodobitev {date}",
+    "sections": [
+      {
+        "h": "Upravljavec",
+        "p": "TOMSTROJ, podjetje za inženiring, strojegradnjo in trgovino d.o.o., Podovnice 1, 1357 Notranje Gorice, Slovenija. E-pošta: tomstroj@siol.net, telefon: +386 41 588 114."
+      },
+      {
+        "h": "Katere podatke obdelujemo",
+        "p": "Ko uporabite naročilnico, obrazec za prodajalce ali kontaktni obrazec, obdelujemo podatke, ki jih vpišete: ime podjetja, ID-številko za DDV, kontaktno osebo, e-poštni naslov, telefonsko številko, državo in naslov za dostavo, besedilo gravure in vaše sporočilo. Za zaščito pred neželeno pošto in omejevanje števila oddaj kratkotrajno obdelujemo vaš naslov IP."
+      },
+      {
+        "h": "Namen in pravna podlaga",
+        "p": "Podatke iz obrazcev uporabljamo za obdelavo naročil in povpraševanj: za pripravo potrditve naročila in računa, organizacijo dostave in odgovore na vprašanja. Pravna podlaga je izvajanje pogodbe ali ukrepi pred sklenitvijo pogodbe (člen 6(1)(b) GDPR) in naš zakoniti interes, da odgovarjamo na poslovna povpraševanja in ščitimo spletno mesto pred zlorabo (člen 6(1)(f) GDPR). ID-številke za DDV preverjamo v sistemu VIES za pravilno davčno obravnavo (člen 6(1)(c) GDPR)."
+      },
+      {
+        "h": "Hramba",
+        "p": "Podatke o naročilih in račune hranimo, kolikor zahteva slovenska davčna in računovodska zakonodaja (praviloma 10 let po koncu leta izdaje računa). Povpraševanja, ki ne privedejo do naročila, izbrišemo v 24 mesecih. Podatki za omejevanje oddaj so v pomnilniku največ eno uro."
+      },
+      {
+        "h": "Obdelovalci",
+        "p": "Resend (pošiljanje e-pošte), Vercel (gostovanje in zbirna analitika brez piškotkov) in Cloudflare Turnstile (zaščita pred neželeno pošto). Vsak deluje v našem imenu na podlagi pogodbe o obdelavi podatkov. Nekateri obdelovalci lahko podatke obdelujejo zunaj EU na podlagi standardnih pogodbenih klavzul EU ali okvira EU-ZDA za zasebnost podatkov."
+      },
+      {
+        "h": "Piškotki in analitika",
+        "p": "Uporabljamo Vercel Web Analytics in Speed Insights, ki ne uporabljata piškotkov in vas ne sledita med spletnimi mesti. Sledilnih piškotkov ne uporabljamo, zato pasica za piškotke ni potrebna. Cloudflare Turnstile lahko ob oddaji obrazca nastavi nujno potreben piškotek."
+      },
+      {
+        "h": "Vaše pravice",
+        "p": "Imate pravico do dostopa, popravka, izbrisa, omejitve obdelave, prenosljivosti podatkov in ugovora ter pravico do preklica privolitve. Pritožbo lahko vložite pri Informacijskem pooblaščencu (www.ip-rs.si)."
+      },
+      {
+        "h": "Kontakt",
+        "p": "Za vsa vprašanja o zasebnosti pišite na tomstroj@siol.net."
+      }
+    ]
+  },
+  "notFound": {
+    "title": "Stran ne obstaja",
+    "body": "Stran, ki jo iščete, ne obstaja ali je bila premaknjena.",
+    "back": "Nazaj na domačo stran"
+  },
+  "alt": {
+    "heroCutout": "Premium kladivo pod kotom: pokositrena bakrena glava, črno držalo s karbonskim tkanjem in črn narebričen ročaj",
+    "angledWhite": "Premium kladivo pod kotom na beli podlagi",
+    "angledLongWhite": "Premium kladivo pod kotom v celotni dolžini na beli podlagi",
+    "sideViewWhite": "Premium kladivo s strani na beli podlagi",
+    "detailHead": "Bližnji posnetek posnete, pokositrene bakrene glave",
+    "detailGrip": "Bližnji posnetek narebričenega eloksiranega aluminijastega ročaja",
+    "detailShaft": "Bližnji posnetek držala s karbonskim tkanjem ob glavi",
+    "caseOpenRender": "Premium kladivo v odprtem trdem kovčku s peno",
+    "realHammerOnWood": "Fotografija končanega Premium kladiva na leseni podlagi",
+    "realCaseOpen": "Fotografija Premium kladiva v odprtem trdem kovčku",
+    "realCaseClosed": "Fotografija zaprtega črnega trdega kovčka",
+    "dimensionsEn": "Risba z merami Premium kladiva: skupna dolžina, dolžina držala in glave ter premeri",
+    "dimensionsSl": "Risba z merami Premium kladiva: skupna dolžina, dolžina držala in glave ter premeri",
+    "dimensionsDe": "Risba z merami Premium kladiva: skupna dolžina, dolžina držala in glave ter premeri",
+    "comparisonVsSteel": "Premium kladivo ob običajnem jeklenem delavniškem kladivu",
+    "field01": "Premium kladivo pri delu na tečaju vrat",
+    "field02": "Premium kladivo v roki, narebričen ročaj od blizu",
+    "field03": "Premium kladivo v roki na gradbišču, zadaj opečni zid",
+    "field04": "Premium kladivo v roki na gradbišču, zadaj teleskopski nakladalnik",
+    "field05": "Premium kladivo v roki na gradbišču, v ozadju teleskopski nakladalnik",
+    "field06": "Premium kladivo v roki, zadaj gradbeni oder in ekipa",
+    "field07": "Premium kladivo med zamahom, zamegljeno zaradi gibanja",
+    "sceneCnc": "Roke strojnega obdelovalca vstavljajo obdelovanec v primež na mizi CNC-stroja",
+    "sceneBearing": "Nameščanje ležaja na jekleno gred na čisti delovni mizi",
+    "sceneAutomotive": "Kolesno pesto na mizi v avtomehanični delavnici v topli svetlobi",
+    "sceneMaintenance": "Vzdrževalna miza v proizvodni hali z razloženim orodjem",
+    "sceneElectromech": "Ohišje elektromotorja na montažni mizi",
+    "sceneGift": "Zaprt črn trd kovček na temni leseni mizi",
+    "sceneWorkshopWide": "Širok pogled na urejeno strojno delavnico v topli svetlobi",
+    "contactMap": "Zemljevid z lokacijo Tomstroj d.o.o., Podovnice 1, Notranje Gorice",
+    "unboxingPoster": "Kader iz videa razpakiranja: trd kovček pred odpiranjem"
+  },
+  "captions": {
+    "field01": "Pri delu na tečaju vrat",
+    "field02": "V roki",
+    "field03": "Na gradbišču",
+    "field04": "Na gradbišču",
+    "field05": "Na gradbišču",
+    "field06": "Na gradbišču",
+    "field07": "Med zamahom"
+  }
+}

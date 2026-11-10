@@ -1,0 +1,853 @@
+{
+  "meta": {
+    "siteName": "Premium Hammer by Tomstroj",
+    "homeTitle": "Premium Hammer — Copper Assembly Hammer | Tomstroj",
+    "homeDescription": "A 620 g copper assembly hammer with an aluminium carbon shaft and knurled anodised grip. Made in Slovenia. From €45 excl. VAT, pay by invoice.",
+    "hammerTitle": "Copper Hammer 620 g — Specifications and Order | Premium Hammer",
+    "hammerDescription": "Copper bearing hammer with tin-plated head, aluminium carbon shaft and knurled grip. €45 or €65 with hard case, excl. VAT. Free shipping from 3 hammers.",
+    "guideTitle": "Copper hammers: when to use one, and how to choose | Premium Hammer",
+    "guideDescription": "A practical guide to copper hammers and soft face hammers: copper vs brass, nylon and dead-blow, sparking, choosing a weight, handle materials and care.",
+    "dealersTitle": "Dealers and B2B — Carry Premium Hammer | Tomstroj",
+    "dealersDescription": "For industrial suppliers, tool dealers, workshop outfitters and corporate-gift partners. Request the dealer pack for Premium Hammer.",
+    "aboutTitle": "About Tomstroj — Made by people who build machines",
+    "aboutDescription": "Premium Hammer comes from Tomstroj d.o.o., a Slovenian engineering and machine-building company near Ljubljana.",
+    "contactTitle": "Contact | Premium Hammer by Tomstroj",
+    "contactDescription": "Tomstroj d.o.o., Podovnice 1, 1357 Notranje Gorice, Slovenia. Phone, email, opening hours and contact form.",
+    "privacyTitle": "Privacy policy | Premium Hammer",
+    "privacyDescription": "How Tomstroj d.o.o. processes the data you send through premiumhammer.com.",
+    "imprintTitle": "Legal notice | Premium Hammer",
+    "imprintDescription": "Company details for TOMSTROJ d.o.o., operator of premiumhammer.com.",
+    "thanksTitle": "Order received | Premium Hammer",
+    "thanksDescription": "Thank you for your order.",
+    "notFoundTitle": "Page not found | Premium Hammer",
+    "ogTagline": "Copper assembly hammer · Made in Slovenia",
+    "ogPrice": "from {price} excl. VAT"
+  },
+  "nav": {
+    "skip": "Skip to content",
+    "home": "Home",
+    "hammer": "Hammer",
+    "industries": "Industries",
+    "guide": "Guide",
+    "dealers": "Dealers",
+    "about": "About",
+    "contact": "Contact",
+    "order": "Order",
+    "menu": "Menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Language",
+    "mainNav": "Main navigation",
+    "breadcrumb": "Breadcrumb",
+    "homeLink": "Premium Hammer by Tomstroj — home"
+  },
+  "common": {
+    "exclVat": "excl. VAT",
+    "from": "from",
+    "pricesExclVat": "Prices exclude VAT",
+    "freeShipping": "Free shipping from 3 hammers per company order",
+    "freeShippingShort": "Free shipping from 3 hammers",
+    "madeInSlovenia": "Made in Slovenia",
+    "payByInvoice": "Pay by invoice",
+    "orderNow": "Order now",
+    "order": "Order",
+    "orderYours": "Order yours",
+    "seeSpecs": "See specifications",
+    "seeHammer": "See the hammer",
+    "getInTouch": "Get in touch",
+    "learnMore": "Learn more",
+    "readGuide": "Read the guide",
+    "approx": "≈",
+    "placeholder": "Image coming soon",
+    "placeholderFile": "File: {file}",
+    "close": "Close",
+    "previous": "Previous image",
+    "next": "Next image",
+    "openImage": "Open image {n} of {total}",
+    "showImage": "Show image {n}",
+    "imageOf": "Image {n} of {total}",
+    "lightbox": "Image viewer",
+    "comingSoon": "Coming soon",
+    "download": "Download",
+    "byTomstroj": "by Tomstroj"
+  },
+  "footer": {
+    "tagline": "One product, made properly. Copper assembly hammer, designed and assembled in Slovenia.",
+    "addressLabel": "Address",
+    "contactLabel": "Contact",
+    "hoursLabel": "Opening hours",
+    "navLabel": "Site",
+    "legalLabel": "Legal",
+    "privacy": "Privacy",
+    "imprint": "Legal notice",
+    "rights": "© {year} Tomstroj d.o.o. All rights reserved."
+  },
+  "company": {
+    "country": "Slovenia",
+    "monFri": "Monday–Friday",
+    "sat": "Saturday",
+    "hours": "{days} {open}–{close}"
+  },
+  "product": {
+    "name": "Premium Hammer",
+    "weight": "Weight",
+    "head": "Head",
+    "shaft": "Shaft",
+    "grip": "Grip",
+    "overallLength": "Overall length",
+    "handleLength": "Handle length (incl. grip)",
+    "headLength": "Head length",
+    "headDiameter": "Head diameter",
+    "gripDiameter": "Grip diameter",
+    "onImpact": "On impact",
+    "madeIn": "Made in",
+    "priceNoCase": "Price without case",
+    "priceCase": "Price with case",
+    "priceCaseNote": "hard case with foam",
+    "shipping": "Shipping",
+    "shippingValue": "Free for 3 or more hammers in one company order; otherwise quoted with the order confirmation",
+    "certification": "Certification",
+    "certificationValue": "Not ATEX/BAM certified — evaluating BAM testing for Ex-zone use",
+    "dimensionsEstimate": "Dimensions are approximate.",
+    "variant": {
+      "nocase": {
+        "name": "Without case",
+        "line": "The hammer, ready for the toolbox.",
+        "short": "without case"
+      },
+      "case": {
+        "name": "With case",
+        "line": "Hard case with foam, for the van, the shelf or a gift.",
+        "short": "with case"
+      }
+    }
+  },
+  "certification": {
+    "note": "Premium Hammer is not certified for use in ATEX explosive atmospheres. We are evaluating BAM testing for Ex-zone use; until then, check suitability against your site's explosion-protection rules.",
+    "label": "Certification status"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Copper · Carbon · Aluminium",
+      "title": "Premium Hammer",
+      "lead": "A 620 g copper assembly hammer with an aluminium carbon shaft. It strikes firmly and spares the part.",
+      "priceChip": "from {price} · excl. VAT",
+      "trust": "Made in Slovenia · Free shipping from 3 hammers · Pay by invoice"
+    },
+    "specStrip": {
+      "label": "Key specifications",
+      "weight": "total weight",
+      "headValue": "Copper",
+      "head": "tin-plated head",
+      "shaftValue": "Aluminium carbon",
+      "shaft": "shaft",
+      "gripValue": "Anodised",
+      "grip": "knurled grip"
+    },
+    "what": {
+      "title": "Built for the moment steel would do damage",
+      "body": "Bearings, bushings, pins, housings, fixtures and finished surfaces all need to be driven home without a dent. Premium Hammer delivers a firm, controlled blow through a tin-plated copper face that gives way before the part does. The aluminium carbon shaft keeps the weight where it belongs — in the head — and the knurled anodised grip stays put even with oil, emulsion or water on your hands.",
+      "small": "Copper does not spark when struck."
+    },
+    "why": {
+      "eyebrow": "Construction",
+      "title": "Every material has a job.",
+      "copper": {
+        "title": "Copper face",
+        "body": "Softer than the steel it strikes, so bearings, shafts and finished surfaces keep their shape."
+      },
+      "shaft": {
+        "title": "Aluminium carbon shaft",
+        "body": "Light and stiff, so the hammer feels balanced and precise through a long shift."
+      },
+      "grip": {
+        "title": "Knurled anodised grip",
+        "body": "A machined pattern that holds in oil, emulsion and water, where rubber grips go slippery."
+      },
+      "tin": {
+        "title": "Tin-plated head",
+        "body": "A protective layer that slows corrosion and keeps the copper looking like a tool you take care of."
+      }
+    },
+    "industries": {
+      "eyebrow": "Industries",
+      "title": "Where it earns its place."
+    },
+    "details": {
+      "eyebrow": "Details",
+      "title": "Look closer.",
+      "head": "Chamfered copper head",
+      "grip": "Knurled anodised aluminium grip",
+      "shaft": "Aluminium carbon weave shaft",
+      "case": "Hard case with foam",
+      "dimensions": "Dimensions and construction"
+    },
+    "field": {
+      "eyebrow": "Out in the field",
+      "title": "Real photos. No renders.",
+      "lead": "The finished hammer, photographed on site and at work."
+    },
+    "compare": {
+      "eyebrow": "Comparison",
+      "title": "Honest about where it sits.",
+      "footnote": "Comparison based on public EU retail listings, November 2026."
+    },
+    "trust": {
+      "eyebrow": "Trust",
+      "title": "In use at",
+      "credential1": "Designed and made by Tomstroj, an engineering and machine-building company near Ljubljana.",
+      "credential2": "Every hammer is assembled and checked in Slovenia before it ships.",
+      "offerTitle": "Founding workshops",
+      "offerBody": "The first 20 workshops to order get their company name engraved free."
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Questions, answered."
+    },
+    "final": {
+      "title": "Order yours"
+    }
+  },
+  "industries": {
+    "cnc": {
+      "title": "CNC and machining",
+      "body": "Tapping workpieces into vices and fixtures without marking the part or the jaws."
+    },
+    "bearing": {
+      "title": "Bearing and machine assembly",
+      "body": "Seating bearings, bushings and pins with a firm blow that spares the seat."
+    },
+    "automotive": {
+      "title": "Automotive workshops",
+      "body": "Hubs, suspension parts and alloy components that steel would scar."
+    },
+    "maintenance": {
+      "title": "Plant maintenance",
+      "body": "The hammer for the maintenance bench: aligning, adjusting and freeing parts in production halls."
+    },
+    "electromech": {
+      "title": "Precision electromechanics",
+      "body": "Motors, housings and assemblies where a gentle, accurate strike matters."
+    },
+    "gift": {
+      "title": "A gift for professionals",
+      "body": "Delivered in a hard case, engraved on request; a tool people actually keep."
+    }
+  },
+  "compareTable": {
+    "caption": "Premium Hammer compared with typical copper hammers",
+    "ours": "Premium Hammer",
+    "wood": "Typical wooden-handle copper hammer",
+    "composite": "Typical composite-handle copper hammer",
+    "rows": {
+      "handle": {
+        "label": "Handle",
+        "ours": "Aluminium carbon shaft, anodised aluminium grip",
+        "wood": "Ash or hickory",
+        "composite": "Glass-fibre composite"
+      },
+      "grip": {
+        "label": "Grip in oil and water",
+        "ours": "Knurled metal, holds",
+        "wood": "Varnished wood, slips",
+        "composite": "Elastomer, varies"
+      },
+      "weight": {
+        "label": "Weight",
+        "ours": "{weight}",
+        "wood": "500–1000 g",
+        "composite": "600–1500 g"
+      },
+      "case": {
+        "label": "Case",
+        "ours": "Optional hard case",
+        "wood": "No",
+        "composite": "No"
+      },
+      "price": {
+        "label": "Price",
+        "ours": "{prices} excl. VAT",
+        "wood": "Usually lower",
+        "composite": "Usually higher"
+      }
+    }
+  },
+  "steelCompare": {
+    "eyebrow": "Copper vs steel",
+    "title": "Next to a standard workshop hammer",
+    "imageCaption": "Premium Hammer beside a standard steel workshop hammer",
+    "caption": "Premium Hammer compared with a standard steel workshop hammer",
+    "ours": "Premium Hammer",
+    "steel": "Standard steel workshop hammer",
+    "rows": {
+      "head": {
+        "label": "Head",
+        "ours": "Copper, tin-plated",
+        "steel": "Hardened steel"
+      },
+      "marks": {
+        "label": "Marks the part",
+        "ours": "Copper face gives way first; bearings, shafts and finished surfaces keep their shape",
+        "steel": "Can dent bearings, shafts and finished surfaces"
+      },
+      "impact": {
+        "label": "On impact",
+        "ours": "Copper does not spark",
+        "steel": "Steel on steel can throw sparks"
+      },
+      "handle": {
+        "label": "Handle",
+        "ours": "Aluminium carbon shaft",
+        "steel": "Fibreglass core with plastic or rubber sleeve"
+      },
+      "grip": {
+        "label": "Grip with oil or water",
+        "ours": "Machined knurling keeps traction",
+        "steel": "Smooth sleeves can go slippery"
+      },
+      "storage": {
+        "label": "Storage",
+        "ours": "Optional hard case with foam",
+        "steel": "None"
+      },
+      "use": {
+        "label": "Best for",
+        "ours": "Assembly, alignment, seating parts, precision work",
+        "steel": "Punches, chisels, nails, general heavy striking"
+      },
+      "price": {
+        "label": "Price",
+        "ours": "{prices} excl. VAT",
+        "steel": "Usually less"
+      }
+    },
+    "footnote": "Different jobs, different tools. A steel hammer is still the right choice for punches and chisels; Premium Hammer is for the parts you can't afford to mark."
+  },
+  "customers": {
+    "label": "Companies using Premium Hammer",
+    "ekoling": "Hrušica, Slovenia · Member of Roto Group",
+    "eoat": "Ljubljana, Slovenia · Robot Hand Grippers",
+    "tehkom": "Kočani, North Macedonia · Metal fabrication",
+    "trelleborg": "Kranj, Slovenia · Engineered polymer solutions",
+    "scorpion": "Automotive repair",
+    "mebelvi": "North Macedonia · Furniture manufacturing",
+    "bikerguard": "Ljubljana, Slovenia · Electric Wipers Manufacturer"
+  },
+  "video": {
+    "title": "First delivery, unboxed",
+    "caption": "Out of the box: the case, the hammer, the first swing.",
+    "unsupported": "Your browser cannot play this video."
+  },
+  "faq": {
+    "home": [
+      {
+        "q": "Is the hammer non-sparking?",
+        "a": "Copper does not spark when struck, which is why copper hammers are used in assembly and maintenance. Premium Hammer is not yet certified for ATEX Ex-zones; we are evaluating BAM testing."
+      },
+      {
+        "q": "Will the copper face wear?",
+        "a": "Yes. Copper is softer than steel on purpose, so the face deforms with heavy use. That is what protects your parts."
+      },
+      {
+        "q": "What is the difference between the two versions?",
+        "a": "It is the same hammer. The €65 version comes in a hard protective case with foam."
+      },
+      {
+        "q": "Do prices include VAT?",
+        "a": "No. Prices exclude VAT, which is added at the applicable rate on the invoice. EU businesses outside Slovenia with a valid VAT ID are invoiced under the reverse-charge rule."
+      },
+      {
+        "q": "How much is shipping?",
+        "a": "Free for 3 or more hammers in one company order. For 1–2 hammers we quote shipping with your order confirmation."
+      },
+      {
+        "q": "Do you work with dealers?",
+        "a": "Yes. See the Dealers page or ask for the dealer pack."
+      }
+    ],
+    "product": [
+      {
+        "q": "What does the tin plating do?",
+        "a": "It protects the copper from corrosion and discolouration."
+      },
+      {
+        "q": "How does the grip behave with oil?",
+        "a": "The machined knurling keeps traction with oil, emulsion or water, where smooth or rubber grips slip."
+      },
+      {
+        "q": "Can the face be restored?",
+        "a": "Light wear can be dressed with a file. A badly deformed head means it is time to replace the hammer."
+      },
+      {
+        "q": "Can we engrave our company name?",
+        "a": "Yes. Add it in the order form; engraving is confirmed by email."
+      },
+      {
+        "q": "How do I pay?",
+        "a": "By bank transfer against an invoice. We send the invoice with your order confirmation."
+      },
+      {
+        "q": "How fast do you ship?",
+        "a": "We confirm the shipping date with your order confirmation, within one working day of your order."
+      }
+    ]
+  },
+  "hammer": {
+    "eyebrow": "By Tomstroj · Made in Slovenia",
+    "title": "Premium Hammer",
+    "lead": "620 g copper assembly hammer with an aluminium carbon shaft and knurled anodised grip.",
+    "variantLegend": "Choose a version",
+    "quantity": "Quantity",
+    "decrease": "Decrease quantity",
+    "increase": "Increase quantity",
+    "freeShippingLive": "3 or more: free shipping",
+    "orderCta": "Order",
+    "perks": "Pay by invoice · Ships across the EU and Western Balkans · Engraving on request",
+    "galleryLabel": "Product images",
+    "specs": {
+      "eyebrow": "Specifications",
+      "title": "Specifications",
+      "caption": "Premium Hammer specifications"
+    },
+    "box": {
+      "title": "What's in the box",
+      "hammer": "Premium Hammer",
+      "case": "Hard case with foam ({price} version)",
+      "card": "Care card"
+    },
+    "uses": {
+      "eyebrow": "Use cases",
+      "title": "Made for six kinds of work"
+    },
+    "care": {
+      "eyebrow": "Care and wear",
+      "title": "Copper is meant to give.",
+      "body": "The copper face is softer than steel on purpose. With hard use it mushrooms and deforms — that is what protects your parts. Keep the head clean and dry; light dressing with a file restores the face. When the face is badly worn or the head loosens on the shaft, stop using the hammer and contact us."
+    },
+    "faqTitle": "Product questions",
+    "orderEyebrow": "Order",
+    "orderTitle": "Place your order",
+    "orderLead": "No cart, no online payment. Send the form, we confirm by email and send an invoice."
+  },
+  "form": {
+    "required": "required",
+    "optional": "optional",
+    "variant": "Version",
+    "quantity": "Quantity",
+    "company": "Company name",
+    "vatId": "VAT ID",
+    "vatHint": "EU businesses: include the country prefix, e.g. SI12345678.",
+    "vatChecking": "Checking with VIES…",
+    "vatValid": "VAT ID valid in VIES",
+    "vatValidName": "VAT ID valid in VIES: {name}",
+    "vatInvalid": "VAT ID not found in VIES. You can still send the order.",
+    "vatUnavailable": "VIES is not reachable right now. You can still send the order; we will check it manually.",
+    "vatNotEu": "Not an EU VAT ID — no VIES check needed.",
+    "contactName": "Contact name",
+    "email": "Email",
+    "phone": "Phone",
+    "country": "Delivery country",
+    "countryPlaceholder": "Select a country",
+    "address": "Delivery address",
+    "addressHint": "Street, postcode, city",
+    "engraving": "Add engraving",
+    "engravingText": "Engraving text",
+    "engravingHint": "Up to {max} characters. Engraving is confirmed by email.",
+    "message": "Message",
+    "consent": "I agree to the <link>privacy policy</link>",
+    "submit": "Send order",
+    "submitting": "Sending…",
+    "website": "Website",
+    "country2": "Country",
+    "type": "Company type",
+    "typePlaceholder": "Select a type",
+    "types": {
+      "distributor": "Distributor",
+      "retailer": "Retailer",
+      "online": "Online shop",
+      "gifts": "Corporate gifts",
+      "other": "Other"
+    },
+    "volume": "Expected annual volume",
+    "volumePlaceholder": "Select a range",
+    "volumes": {
+      "v1": "Under 50 hammers",
+      "v2": "50–200 hammers",
+      "v3": "200–1000 hammers",
+      "v4": "More than 1000 hammers",
+      "unknown": "Not sure yet"
+    },
+    "name": "Name",
+    "topic": "Topic",
+    "topicPlaceholder": "Select a topic",
+    "topics": {
+      "order": "Order",
+      "dealer": "Dealer",
+      "engraving": "Engraving",
+      "other": "Other"
+    },
+    "dealerSubmit": "Request the dealer pack",
+    "contactSubmit": "Send message",
+    "turnstile": "Spam protection",
+    "errors": {
+      "summary": "Please check the highlighted fields.",
+      "required": "This field is required.",
+      "email": "Enter a valid email address.",
+      "quantity": "Enter a quantity from {min} to {max}.",
+      "engraving": "Engraving text: 1 to {max} characters.",
+      "consent": "Please agree to the privacy policy.",
+      "country": "Select a country from the list.",
+      "url": "Enter a valid web address.",
+      "turnstile": "The spam check failed. Please try again.",
+      "rateLimit": "Too many submissions from your connection. Please try again in an hour or email us.",
+      "send": "We could not send your message. Please try again or email us at {email}.",
+      "tooLong": "This text is too long."
+    },
+    "dealerSuccess": "Thank you. We will send the dealer pack to {email} within one working day.",
+    "contactSuccess": "Thank you. We will reply to {email} within one working day."
+  },
+  "summary": {
+    "title": "Order summary",
+    "line": "{variant} × {qty}",
+    "subtotal": "Subtotal excl. VAT",
+    "shipping": "Shipping",
+    "shippingFree": "Free",
+    "shippingQuoted": "Quoted with confirmation",
+    "vatNote": "VAT added on the invoice",
+    "engraving": "Engraving",
+    "engravingValue": "“{text}”"
+  },
+  "thanks": {
+    "eyebrow": "Order received",
+    "title": "Thank you for your order",
+    "ref": "Order reference",
+    "body": "We have sent a confirmation to your email. We will send the invoice and confirm shipping within one working day.",
+    "noRef": "If you did not receive a confirmation email within a few minutes, please check your spam folder or contact us.",
+    "back": "Back to the hammer",
+    "contact": "Questions? Call {phone} or email {email}."
+  },
+  "email": {
+    "orderSubject": "Your Premium Hammer order {ref}",
+    "orderPreview": "Thank you — order {ref} received.",
+    "hello": "Hello {name},",
+    "thanks": "Thank you for your order. Here is a summary.",
+    "next": "We will send the invoice and confirm shipping within one working day.",
+    "ref": "Order reference",
+    "regards": "Kind regards,",
+    "team": "Tomstroj d.o.o.",
+    "dealerSubject": "Your Premium Hammer dealer pack request",
+    "dealerBody": "Thank you for your interest in carrying Premium Hammer. We will send the dealer pack within one working day.",
+    "contactSubject": "We received your message",
+    "contactBody": "Thank you for your message. We will reply within one working day."
+  },
+  "guide": {
+    "eyebrow": "Guide",
+    "title": "Copper hammers: when to use one, and how to choose",
+    "lead": "A copper hammer is a soft face hammer: it strikes firmly but gives way before the part does. Here is when to reach for one, how copper compares with brass, nylon and dead-blow hammers, and what to look for when you buy.",
+    "updated": "Updated {date}",
+    "byline": "By Tomstroj d.o.o.",
+    "toc": "On this page",
+    "s1": {
+      "title": "What a copper hammer is for",
+      "p1": "A copper hammer — sometimes called a copper mallet — is built for soft-face striking. The copper face is softer than hardened steel, so when it meets a bearing race, a shaft end or a machined surface, the copper deforms first and the part keeps its shape.",
+      "p2": "That makes it the hammer for assembly and alignment: seating bearings and bushings, tapping workpieces into a vice, driving dowel pins, nudging a housing into line or freeing a seized part without leaving a mark. It is also why copper is often called a bearing hammer in maintenance workshops."
+    },
+    "s2": {
+      "title": "Copper vs brass vs nylon vs dead-blow",
+      "p1": "Soft face hammers trade hardness for protection. The softer the face, the less it marks — and the less force it transmits.",
+      "caption": "Soft face hammer types compared",
+      "col": {
+        "type": "Face",
+        "hardness": "Face hardness",
+        "marking": "Marking risk",
+        "rebound": "Rebound",
+        "use": "Typical use"
+      },
+      "rows": {
+        "copper": {
+          "type": "Copper",
+          "hardness": "Soft metal",
+          "marking": "Low",
+          "rebound": "Low",
+          "use": "Bearings, shafts, pins, assembly and alignment"
+        },
+        "brass": {
+          "type": "Brass",
+          "hardness": "Harder than copper",
+          "marking": "Low to medium",
+          "rebound": "Medium",
+          "use": "Drifts and punches on softer steels, general maintenance"
+        },
+        "nylon": {
+          "type": "Nylon / plastic",
+          "hardness": "Soft polymer",
+          "marking": "Very low",
+          "rebound": "Medium to high",
+          "use": "Sheet metal, finished and painted surfaces, light assembly"
+        },
+        "deadblow": {
+          "type": "Dead-blow",
+          "hardness": "Polymer shell, shot-filled",
+          "marking": "Very low",
+          "rebound": "Very low",
+          "use": "Seating parts where bounce-back must be avoided"
+        }
+      },
+      "p2": "Copper sits in the middle: it transmits more of the blow than nylon or rubber, marks far less than steel or brass and has little rebound."
+    },
+    "s3": {
+      "title": "Does copper spark?",
+      "p1": "Copper does not produce the hot sparks steel does when struck, which is why copper tools are used near flammables. People often search for a \"non-sparking hammer\" for exactly this reason.",
+      "p2": "But certified tools for explosive atmospheres are tested and approved separately; a copper hammer is not automatically approved for Ex-zones. Check your site's explosion-protection document before you use any hammer in a hazardous area."
+    },
+    "s4": {
+      "title": "Choosing a weight",
+      "items": [
+        "300–500 g for fine assembly: small pins, instrument housings, light alignment.",
+        "500–800 g for general workshop use: bearings, bushings, vices and fixtures.",
+        "1 kg and more for heavy seating: large bearings, couplings and big housings."
+      ],
+      "p1": "At 620 g, Premium Hammer sits in the general-workshop range."
+    },
+    "s5": {
+      "title": "Handle materials",
+      "items": [
+        "Wood (ash, hickory): light and warm in the hand, but varnished wood slips in oil and can loosen as it dries out.",
+        "Fibreglass: durable and damping; usually covered in a rubber or plastic sleeve that can go slippery in oil.",
+        "Composite: glass- or carbon-reinforced polymer, often with an elastomer grip; behaviour in oil varies with the grip.",
+        "Aluminium carbon: a stiff, light shaft that keeps the weight in the head; with a knurled metal grip it holds in oil, emulsion and water."
+      ]
+    },
+    "s6": {
+      "title": "Caring for a copper hammer",
+      "p1": "Copper is meant to give, so the face will mushroom with use. Keep the head clean and dry. Dress light burrs and mushrooming with a file to restore a flat face.",
+      "p2": "Replace the hammer — or the head, where the design allows — when the face is badly deformed, cracked, or the head loosens on the handle."
+    },
+    "cta": {
+      "title": "A copper hammer built for the workshop",
+      "body": "Premium Hammer: 620 g, tin-plated copper head, aluminium carbon shaft, knurled anodised grip."
+    }
+  },
+  "dealers": {
+    "hero": {
+      "eyebrow": "Dealers and B2B",
+      "title": "Carry Premium Hammer",
+      "lead": "For industrial suppliers, tool dealers, workshop outfitters and corporate-gift partners across Europe.",
+      "cta": "Request the dealer pack"
+    },
+    "why": {
+      "eyebrow": "Why stock it",
+      "title": "A product with a clear place on the shelf",
+      "c1": {
+        "title": "A format catalogs rarely carry",
+        "body": "A format the big catalogs don't carry — copper head, aluminium carbon shaft, presentation case."
+      },
+      "c2": {
+        "title": "Direct from the maker",
+        "body": "Made in Slovenia, short lead times, direct contact with the maker."
+      },
+      "c3": {
+        "title": "Packaging that sells",
+        "body": "Packaging that sells itself on a counter, in a catalog photo or as a gift."
+      }
+    },
+    "market": {
+      "eyebrow": "Positioning",
+      "title": "Where it sits in the market",
+      "lead": "Prices converted to per-gram so they compare fairly; all figures include VAT for a like-for-like view.",
+      "caption": "Ranges from public EU retail listings, November 2026. Premium Hammer sits above wooden-handle hammers and below composite-handle premium hammers.",
+      "col": {
+        "type": "Product type",
+        "weight": "Typical weight",
+        "retail": "Typical retail incl. VAT",
+        "perGram": "€ per gram"
+      },
+      "rows": {
+        "wood600": "Wooden-handle copper hammer",
+        "wood1000": "Wooden-handle copper hammer",
+        "oursNoCase": "Premium Hammer, no case",
+        "oursCase": "Premium Hammer, with case",
+        "composite600": "Composite carbon-reinforced copper hammer"
+      },
+      "vatNote": "({net} + {rate}% SI VAT)"
+    },
+    "get": {
+      "eyebrow": "Dealer pack",
+      "title": "What dealers get",
+      "items": [
+        "Product sheet in EN / SL / DE",
+        "High-resolution cutouts and lifestyle images",
+        "Dimensions graphic",
+        "EAN codes and carton dimensions",
+        "Dealer price list on request"
+      ]
+    },
+    "sizes": {
+      "title": "Order sizes",
+      "caption": "Dealer order sizes",
+      "col": {
+        "size": "Order size",
+        "qty": "Quantity",
+        "price": "Price"
+      },
+      "sample": "Sample unit",
+      "sampleQty": "1 hammer",
+      "starter": "Starter carton",
+      "starterQty": "On request",
+      "volume": "Volume",
+      "volumeQty": "50+ hammers",
+      "onRequest": "Price on request"
+    },
+    "label": {
+      "title": "Private label and engraving",
+      "body": "Company names and logos engraved on the shaft or grip; house-brand packaging for catalog partners on request."
+    },
+    "downloads": {
+      "title": "Downloads",
+      "en": "Brochure (English, PDF)",
+      "sl": "Brochure (Slovenian, PDF)",
+      "de": "Brochure (German, PDF)"
+    },
+    "form": {
+      "eyebrow": "Dealer pack",
+      "title": "Request the dealer pack",
+      "lead": "Tell us about your business. We reply within one working day."
+    }
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "About Tomstroj",
+      "title": "Made by people who build machines",
+      "lead": "Premium Hammer comes from Tomstroj, a Slovenian engineering and machine-building company near Ljubljana."
+    },
+    "who": {
+      "title": "Who we are",
+      "body": "Tomstroj d.o.o. — in full, an engineering, machine-building and trading company — designs and builds machines and mechanical systems from its base in Notranje Gorice, with a second workshop in Vrhnika. The work runs from engineering and design to fabrication, hydraulics, electrics and assembly."
+    },
+    "building": {
+      "title": "What we're building",
+      "body": "Alongside contract engineering, Tomstroj develops its own products. The first is <b>TIFCO</b>, a mobile waste compactor for hotels and commercial kitchens: it runs on a standard single-phase socket, compacts a full bag in about 30 seconds and drops the compacted waste straight into the bin. TIFCO is in final testing."
+    },
+    "why": {
+      "title": "Why a hammer",
+      "body": "Assembly work needs a hammer that strikes firmly without marking bearings, shafts or finished parts. The copper hammers we could buy had heavy wooden handles that slipped in oil. So we made our own: a copper head, an aluminium carbon shaft and a machined grip. Other workshops asked for one. Premium Hammer is the result — one product, made properly."
+    },
+    "made": {
+      "title": "Made in Slovenia",
+      "lead": "Engineering, fabrication and assembly under one roof in Notranje Gorice and Vrhnika."
+    },
+    "cta": {
+      "title": "One product, made properly."
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Talk to the maker",
+    "lead": "Orders, dealer enquiries, engraving or anything else — we reply within one working day.",
+    "address": "Address",
+    "phoneEmail": "Phone and email",
+    "hours": "Opening hours",
+    "map": "Open in Google Maps",
+    "mapAlt": "Map showing Tomstroj d.o.o., Podovnice 1, Notranje Gorice",
+    "formTitle": "Send us a message"
+  },
+  "imprint": {
+    "title": "Legal notice",
+    "company": "Company",
+    "address": "Registered address",
+    "unit": "Business unit",
+    "reg": "Registration no.",
+    "vat": "VAT ID",
+    "contact": "Contact",
+    "responsible": "Responsible for content",
+    "responsibleValue": "Tomstroj d.o.o.",
+    "disputes": "Online dispute resolution",
+    "disputesBody": "We sell to businesses only. We are neither obliged nor willing to take part in consumer dispute resolution proceedings."
+  },
+  "privacy": {
+    "title": "Privacy policy",
+    "status": "TODO: legal review",
+    "updated": "Last updated {date}",
+    "sections": [
+      {
+        "h": "Controller",
+        "p": "TOMSTROJ, podjetje za inženiring, strojegradnjo in trgovino d.o.o., Podovnice 1, 1357 Notranje Gorice, Slovenia. Email: tomstroj@siol.net, phone: +386 41 588 114."
+      },
+      {
+        "h": "What we process",
+        "p": "When you use the order, dealer or contact form we process the data you enter: company name, VAT ID, contact name, email address, phone number, delivery country and address, engraving text and your message. For spam protection and rate limiting we briefly process your IP address."
+      },
+      {
+        "h": "Purpose and legal basis",
+        "p": "We use form data to process orders and enquiries: to prepare an order confirmation and invoice, to arrange delivery and to answer your questions. The legal basis is the performance of a contract or steps prior to a contract (Art. 6(1)(b) GDPR) and our legitimate interest in answering business enquiries and protecting the site from abuse (Art. 6(1)(f) GDPR). We check VAT IDs against the EU VIES service to apply the correct VAT treatment (Art. 6(1)(c) GDPR)."
+      },
+      {
+        "h": "Retention",
+        "p": "Order data and invoices are kept for as long as Slovenian tax and accounting law requires (generally 10 years after the end of the year the invoice was issued). Enquiries that do not lead to an order are deleted within 24 months. Rate-limit data is held in memory for at most one hour."
+      },
+      {
+        "h": "Processors",
+        "p": "Resend (email delivery), Vercel (hosting and cookieless, aggregated analytics) and Cloudflare Turnstile (spam protection). Each acts on our behalf under a data processing agreement. Some processors may process data outside the EU under the EU Standard Contractual Clauses or the EU–US Data Privacy Framework."
+      },
+      {
+        "h": "Cookies and analytics",
+        "p": "We use Vercel Web Analytics and Speed Insights, which are cookieless and do not track you across sites. We do not use tracking cookies, so no cookie banner is needed. Cloudflare Turnstile may set a strictly necessary cookie when you submit a form."
+      },
+      {
+        "h": "Your rights",
+        "p": "You have the right of access, rectification, erasure, restriction of processing, data portability and objection, and the right to withdraw consent. You can lodge a complaint with the Slovenian Information Commissioner (Informacijski pooblaščenec, www.ip-rs.si)."
+      },
+      {
+        "h": "Contact",
+        "p": "For any privacy question, email tomstroj@siol.net."
+      }
+    ]
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "The page you are looking for does not exist or has moved.",
+    "back": "Back to the home page"
+  },
+  "alt": {
+    "heroCutout": "Premium Hammer, angled view: tin-plated copper head, black carbon-weave shaft and black knurled grip",
+    "angledWhite": "Premium Hammer at an angle on a white background",
+    "angledLongWhite": "Premium Hammer at an angle, full length, on a white background",
+    "sideViewWhite": "Premium Hammer side view on a white background",
+    "detailHead": "Close-up of the chamfered, tin-plated copper head",
+    "detailGrip": "Close-up of the knurled anodised aluminium grip",
+    "detailShaft": "Close-up of the aluminium carbon weave shaft where it meets the head",
+    "caseOpenRender": "Premium Hammer in its open hard case with foam insert",
+    "realHammerOnWood": "Photo of the finished Premium Hammer lying on a wooden surface",
+    "realCaseOpen": "Photo of Premium Hammer in its open hard case",
+    "realCaseClosed": "Photo of the closed black hard case",
+    "dimensionsEn": "Dimensions drawing of Premium Hammer with overall, handle and head lengths and diameters",
+    "dimensionsSl": "Dimensions drawing of Premium Hammer with overall, handle and head lengths and diameters",
+    "dimensionsDe": "Dimensions drawing of Premium Hammer with overall, handle and head lengths and diameters",
+    "comparisonVsSteel": "Premium Hammer lying beside a standard steel workshop hammer",
+    "field01": "Premium Hammer at work on a door hinge",
+    "field02": "Premium Hammer held in a hand, knurled grip in close-up",
+    "field03": "Premium Hammer held in a hand on a building site with brickwork behind",
+    "field04": "Premium Hammer held in a hand on site with a telehandler behind",
+    "field05": "Premium Hammer held in a hand on site with a telehandler in the background",
+    "field06": "Premium Hammer held in a hand with scaffolding and a crew behind",
+    "field07": "Premium Hammer mid-swing, motion-blurred",
+    "sceneCnc": "Machinist's hands tapping a workpiece into a vice on a CNC machine table",
+    "sceneBearing": "A bearing being seated onto a steel shaft on a clean workbench",
+    "sceneAutomotive": "A wheel hub on a bench in a car workshop under warm light",
+    "sceneMaintenance": "Maintenance bench in a production hall with tools laid out",
+    "sceneElectromech": "Electric motor housing on an assembly table",
+    "sceneGift": "Closed black hard case on a dark wooden desk",
+    "sceneWorkshopWide": "Wide view of a clean machine workshop in warm light",
+    "contactMap": "Map showing Tomstroj d.o.o., Podovnice 1, Notranje Gorice",
+    "unboxingPoster": "Still from the unboxing video: the hard case before opening"
+  },
+  "captions": {
+    "field01": "At work on a door hinge",
+    "field02": "In hand",
+    "field03": "On site",
+    "field04": "On site",
+    "field05": "On site",
+    "field06": "On site",
+    "field07": "Mid-swing"
+  }
+}
