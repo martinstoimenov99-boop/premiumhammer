@@ -7,7 +7,7 @@ import type { ClientImage } from './MediaImage';
 import { ClientPlaceholder } from './ClientPlaceholder';
 import { Lightbox } from './Lightbox';
 
-/** Masonry grid of real field photos (3 / 2 / 1 columns), lead tile first, lightbox on click. */
+/** Masonry grid of real field photos (3 / 2 / 1 columns): the lead tile at full height, the rest cropped to 4:5; lightbox on click. */
 export function FieldGallery({ images }: { images: ClientImage[] }) {
   const t = useTranslations('common');
   const [open, setOpen] = useState<number | null>(null);
@@ -22,7 +22,7 @@ export function FieldGallery({ images }: { images: ClientImage[] }) {
                 onClick={() => setOpen(i)}
                 aria-label={t('openImage', { n: i + 1, total: images.length })}
                 className="photo-frame relative block w-full cursor-zoom-in transition-opacity hover:opacity-95"
-                style={{ aspectRatio: String(i === 0 ? 4 / 5 : img.aspect) }}
+                style={{ aspectRatio: String(i === 0 ? img.aspect : 4 / 5) }}
               >
                 {img.available ? (
                   <Image src={img.src} alt={img.alt} fill sizes="(min-width: 1024px) 384px, (min-width: 640px) 50vw, 100vw" className="object-cover" />

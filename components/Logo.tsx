@@ -9,7 +9,7 @@ export function Logo({ src, available, compact = false, tone = 'light' }: { src:
   return (
     <span className={`flex flex-col items-start gap-0.5 sm:flex-row sm:items-center sm:gap-3 ${color}`}>
       {available ? (
-        <Image src={src} alt="Tomstroj" width={120} height={32} className={`w-auto transition-all ${compact ? 'h-5 sm:h-6' : 'h-5 sm:h-7 lg:h-8'}`} />
+        <Image src={src} alt="Tomstroj" width={319} height={46} className={`w-auto transition-all ${compact ? 'h-5 sm:h-6' : 'h-5 sm:h-7 lg:h-8'}`} />
       ) : (
         <span className="font-display text-[15px] leading-none font-bold tracking-[0.08em] sm:text-[17px] lg:text-[19px]">TOMSTROJ</span>
       )}

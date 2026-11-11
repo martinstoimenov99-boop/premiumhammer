@@ -106,7 +106,7 @@ public/downloads/premium-hammer-broschuere-de.pdf   (German brochure — not pro
 
 Photos have had their EXIF/GPS metadata removed. Keep it that way: never re-export from the originals.
 
-Layout aspect ratios in `content/media.ts` are estimates. Adjust `aspect` once the real files are in.
+Aspect ratios in `content/media.ts` are measured from the supplied files. Update `aspect` if a file is replaced with one of a different shape.
 
 ### Workshop scenes (to be photographed or generated)
 

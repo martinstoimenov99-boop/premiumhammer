@@ -141,7 +141,7 @@ export default async function HomePage({ params }: Props) {
             {details.map((d) => (
               <li key={d.id}>
                 <figure>
-                  <MediaImage id={d.id} sizes="(min-width: 1024px) 280px, (min-width: 640px) 50vw, 100vw" />
+                  <MediaImage id={d.id} aspect={4 / 3} sizes="(min-width: 1024px) 280px, (min-width: 640px) 50vw, 100vw" />
                   <figcaption className="mt-3 font-display text-[17px] font-semibold">{d.label}</figcaption>
                 </figure>
               </li>

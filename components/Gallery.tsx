@@ -48,7 +48,7 @@ export function Gallery({ images, label }: { images: ClientImage[]; label: strin
               fill
               priority={active === 0}
               sizes="(min-width: 1024px) 600px, 100vw"
-              className={isCutout || img.kind === 'graphic' ? 'object-contain p-6' : 'object-cover'}
+              className={isCutout || img.kind === 'graphic' ? 'object-contain p-6' : 'object-contain'}
             />
           ) : (
             <ClientPlaceholder label={img.alt} file={img.src} />
