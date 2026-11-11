@@ -36,6 +36,8 @@ export async function pageMetadata(locale: Locale, key: MetaKey, path: PagePath,
   const title = t(`${key}Title`);
   const description = t(`${key}Description`);
   const url = localeUrl(locale, path);
+  // A page-level `openGraph` replaces the segment's file-based opengraph-image, so reference it explicitly.
+  const image = { url: `/${locale}/opengraph-image`, width: 1200, height: 630, alt: t('siteName') };
   return {
     title: { absolute: title },
     description,
@@ -48,8 +50,9 @@ export async function pageMetadata(locale: Locale, key: MetaKey, path: PagePath,
       siteName: t('siteName'),
       locale: ogLocale[locale],
       alternateLocale: locales.filter((l) => l !== locale).map((l) => ogLocale[l]),
+      images: [image],
     },
-    twitter: { card: 'summary_large_image', title, description },
+    twitter: { card: 'summary_large_image', title, description, images: [image.url] },
     robots: opts.noindex ? { index: false, follow: true } : undefined,
   };
 }
