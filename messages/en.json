@@ -864,5 +864,15 @@
     "field05": "On site",
     "field06": "On site",
     "field07": "Mid-swing"
+  },
+  "brochure": {
+    "title": "Premium Hammer by Tomstroj — product brochure",
+    "header1": "Copper assembly hammer",
+    "header2": "Details and specifications",
+    "whatTitle": "What it does",
+    "from": "from {price}",
+    "caseReal": "The real hammer in its hard case",
+    "orderTitle": "Order or request a quote",
+    "page": "Page {n} / {total}"
   }
 }

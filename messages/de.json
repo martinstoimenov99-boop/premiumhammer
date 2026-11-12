@@ -865,5 +865,15 @@
     "field05": "Auf der Baustelle",
     "field06": "Auf der Baustelle",
     "field07": "Im Schwung"
+  },
+  "brochure": {
+    "title": "Premium Hammer by Tomstroj — Produktbroschüre",
+    "header1": "Kupferhammer für die Montage",
+    "header2": "Details und technische Daten",
+    "whatTitle": "Wofür er gemacht ist",
+    "from": "ab {price}",
+    "caseReal": "Der echte Hammer im Hartschalenkoffer",
+    "orderTitle": "Bestellen oder Angebot anfordern",
+    "page": "Seite {n} / {total}"
   }
 }

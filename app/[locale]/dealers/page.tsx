@@ -37,7 +37,6 @@ export default async function DealersPage({ params }: Props) {
   const downloads = [
     { key: 'en', file: files.brochureEn },
     { key: 'sl', file: files.brochureSl },
-    // TODO(owner): German brochure PDF.
     { key: 'de', file: files.brochureDe },
   ] as const;
 

@@ -8,7 +8,8 @@
     "start": "next start",
     "typecheck": "tsc --noEmit",
     "check:messages": "node scripts/check-messages.mjs",
-    "check:claims": "node scripts/check-claims.mjs"
+    "check:claims": "node scripts/check-claims.mjs",
+    "brochure": "node --experimental-strip-types --no-warnings scripts/brochure/build.mts"
   },
   "engines": {
     "node": ">=20.18"

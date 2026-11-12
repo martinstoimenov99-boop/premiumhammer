@@ -865,5 +865,15 @@
     "field05": "Na gradbišču",
     "field06": "Na gradbišču",
     "field07": "Med zamahom"
+  },
+  "brochure": {
+    "title": "Premium kladivo by Tomstroj — predstavitvena brošura",
+    "header1": "Bakreno montažno kladivo",
+    "header2": "Podrobnosti in specifikacije",
+    "whatTitle": "Čemu je namenjeno",
+    "from": "od {price}",
+    "caseReal": "Pravo kladivo v trdem kovčku",
+    "orderTitle": "Naročite ali zahtevajte ponudbo",
+    "page": "Stran {n} / {total}"
   }
 }
