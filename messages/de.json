@@ -735,7 +735,16 @@
     },
     "made": {
       "title": "Hergestellt in Slowenien",
-      "lead": "Engineering, Fertigung und Montage unter einem Dach in Notranje Gorice und Vrhnika."
+      "lead": "Engineering, Fertigung und Montage unter einem Dach in Notranje Gorice und Vrhnika.",
+      "labels": {
+        "workshopDesign": "Engineering und Konstruktion",
+        "workshopFabrication": "Fertigung",
+        "workshopMachining": "Zerspanung",
+        "workshopHydraulics": "Hydraulik",
+        "workshopElectrics": "Elektrik",
+        "workshopAssembly": "Montage"
+      },
+      "illustrative": "Illustrative Bilder. Fotos unserer eigenen Werkstätten in Notranje Gorice und Vrhnika folgen in Kürze."
     },
     "cta": {
       "title": "Ein Produkt, sorgfältig gemacht."
@@ -840,7 +849,13 @@
     "sceneGift": "Geschlossener schwarzer Hartschalenkoffer auf einem dunklen Holzschreibtisch",
     "sceneWorkshopWide": "Weite Ansicht einer aufgeräumten Maschinenbauwerkstatt in warmem Licht",
     "contactMap": "Karte mit dem Standort von Tomstroj d.o.o., Podovnice 1, Notranje Gorice",
-    "unboxingPoster": "Standbild aus dem Auspackvideo: der Hartschalenkoffer vor dem Öffnen"
+    "unboxingPoster": "Standbild aus dem Auspackvideo: der Hartschalenkoffer vor dem Öffnen",
+    "workshopDesign": "Konstruktionsarbeitsplatz mit technischen Zeichnungen und CAD-Modell auf dem Bildschirm",
+    "workshopFabrication": "Maschinenrahmen aus Stahl, auf einem Schweißtisch eingespannt, mit Heftnähten",
+    "workshopMachining": "Eine Stahlwelle wird auf einer konventionellen Drehmaschine gedreht",
+    "workshopHydraulics": "Eine Hydraulikverschraubung wird an einem Aggregat angezogen",
+    "workshopElectrics": "Ein Schaltschrank wird mit Reihenklemmen und Kabelkanälen verdrahtet",
+    "workshopAssembly": "Ein Lagergehäuse wird bei der Montage an einen Maschinenrahmen geschraubt"
   },
   "captions": {
     "field01": "Bei der Arbeit an einem Türscharnier",

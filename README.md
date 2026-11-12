@@ -112,9 +112,7 @@ Aspect ratios in `content/media.ts` are measured from the supplied files. Update
 
 The six industry tiles (`scene-cnc.jpg`, `scene-bearing.jpg`, `scene-automotive.jpg`, `scene-maintenance.jpg`, `scene-electromech.jpg`, `scene-gift.jpg`) are **AI-generated stock images** (Higgsfield, GPT Image 2.6, 2336 × 1744). They deliberately leave the hammer out, so no generated image can misrepresent the product; the real product is shown only in real photos and renders. Replace any of them with a real photo at the same path whenever you have one.
 
-Still missing:
-
-`public/images/scene-workshop-wide.jpg` plus six Tomstroj workshop photos for the About page (`workshop-1.jpg` … `workshop-6.jpg`; wire them up in `app/[locale]/about/page.tsx`).
+The About page's wide workshop banner (`scene-workshop-wide.jpg`) and its six-image grid (`workshop-1-design.jpg`, `workshop-2-fabrication.jpg`, `workshop-3-machining.jpg`, `workshop-4-hydraulics.jpg`, `workshop-5-electrics.jpg`, `workshop-6-assembly.jpg`) are also **AI-generated**, styled as plain phone snapshots of a working machine-building shop. A caption under the grid says they are illustrative until real photos of the Tomstroj workshops in Notranje Gorice and Vrhnika replace them. When you add the real photos (same paths), remove the caption: `about.made.illustrative` in the three message files and its line in `app/[locale]/about/page.tsx`.
 
 Art direction:
 
@@ -158,7 +156,7 @@ Search the code for `TODO(owner)` and `TODO:`.
 - [ ] Lead time for "How fast do you ship?". The FAQ currently says only that the shipping date is confirmed within one working day. Update `faq.product[5]`.
 - [ ] Starter carton size, EAN codes and carton dimensions for the Dealers page: `dealers.sizes.starterQty`, `dealers.get.items`.
 - [ ] German brochure PDF: `public/downloads/premium-hammer-broschuere-de.pdf`.
-- [ ] Real Tomstroj workshop photos for the About page (industry scenes are done, AI-generated; see above).
+- [ ] Real Tomstroj workshop photos for the About page, replacing the illustrative AI images, then remove the "illustrative" caption (see above).
 - [ ] Static map image for the Contact page (e.g. an OpenStreetMap export with attribution).
 - [ ] All brand assets: logos, renders, photos, dimension graphics, video, brochures (see the list above).
 - [ ] Reshoot the case photo with the label corrected to "Copper".

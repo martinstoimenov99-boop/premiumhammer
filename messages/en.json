@@ -734,7 +734,16 @@
     },
     "made": {
       "title": "Made in Slovenia",
-      "lead": "Engineering, fabrication and assembly under one roof in Notranje Gorice and Vrhnika."
+      "lead": "Engineering, fabrication and assembly under one roof in Notranje Gorice and Vrhnika.",
+      "labels": {
+        "workshopDesign": "Engineering and design",
+        "workshopFabrication": "Fabrication",
+        "workshopMachining": "Machining",
+        "workshopHydraulics": "Hydraulics",
+        "workshopElectrics": "Electrics",
+        "workshopAssembly": "Assembly"
+      },
+      "illustrative": "Illustrative images. Photos of our own workshops in Notranje Gorice and Vrhnika are coming soon."
     },
     "cta": {
       "title": "One product, made properly."
@@ -839,7 +848,13 @@
     "sceneGift": "Closed black hard case on a dark wooden desk",
     "sceneWorkshopWide": "Wide view of a clean machine workshop in warm light",
     "contactMap": "Map showing Tomstroj d.o.o., Podovnice 1, Notranje Gorice",
-    "unboxingPoster": "Still from the unboxing video: the hard case before opening"
+    "unboxingPoster": "Still from the unboxing video: the hard case before opening",
+    "workshopDesign": "Engineering desk with technical drawings and a CAD model on screen",
+    "workshopFabrication": "Steel machine frame clamped on a welding table with tack welds",
+    "workshopMachining": "Steel shaft being turned on a conventional lathe",
+    "workshopHydraulics": "Hydraulic hose fitting being tightened on a power unit",
+    "workshopElectrics": "Control cabinet being wired with terminal blocks and cable ducts",
+    "workshopAssembly": "Bearing housing being bolted onto a machine frame during assembly"
   },
   "captions": {
     "field01": "At work on a door hinge",

@@ -735,7 +735,16 @@
     },
     "made": {
       "title": "Izdelano v Sloveniji",
-      "lead": "Inženiring, izdelava in montaža pod eno streho v Notranjih Goricah in na Vrhniki."
+      "lead": "Inženiring, izdelava in montaža pod eno streho v Notranjih Goricah in na Vrhniki.",
+      "labels": {
+        "workshopDesign": "Inženiring in konstruiranje",
+        "workshopFabrication": "Izdelava",
+        "workshopMachining": "Strojna obdelava",
+        "workshopHydraulics": "Hidravlika",
+        "workshopElectrics": "Elektrika",
+        "workshopAssembly": "Montaža"
+      },
+      "illustrative": "Ilustrativne slike. Fotografije naših delavnic v Notranjih Goricah in na Vrhniki bodo kmalu na voljo."
     },
     "cta": {
       "title": "En izdelek, narejen pošteno."
@@ -840,7 +849,13 @@
     "sceneGift": "Zaprt črn trd kovček na temni leseni mizi",
     "sceneWorkshopWide": "Širok pogled na urejeno strojno delavnico v topli svetlobi",
     "contactMap": "Zemljevid z lokacijo Tomstroj d.o.o., Podovnice 1, Notranje Gorice",
-    "unboxingPoster": "Kader iz videa razpakiranja: trd kovček pred odpiranjem"
+    "unboxingPoster": "Kader iz videa razpakiranja: trd kovček pred odpiranjem",
+    "workshopDesign": "Inženirska miza s tehničnimi risbami in CAD-modelom na zaslonu",
+    "workshopFabrication": "Jeklen okvir stroja, vpet na varilni mizi, s pripenjalnimi zvari",
+    "workshopMachining": "Struženje jeklene gredi na klasični stružnici",
+    "workshopHydraulics": "Zategovanje hidravlične cevi na hidravličnem agregatu",
+    "workshopElectrics": "Vezava krmilne omare z vrstnimi sponkami in kabelskimi kanali",
+    "workshopAssembly": "Privijanje ohišja ležaja na okvir stroja med montažo"
   },
   "captions": {
     "field01": "Pri delu na tečaju vrat",

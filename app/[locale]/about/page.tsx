@@ -6,7 +6,7 @@ import { breadcrumbJsonLd } from '@/lib/jsonld';
 import { Breadcrumbs } from '@/components/sections';
 import { ButtonLink, JsonLd } from '@/components/ui';
 import { MediaImage } from '@/components/MediaImage';
-import { Placeholder } from '@/components/Placeholder';
+import { workshopGallery } from '@/content/media';
 
 type Props = { params: Promise<{ locale: Locale }> };
 
@@ -35,7 +35,7 @@ export default async function AboutPage({ params }: Props) {
           </div>
         </div>
       </section>
-      {/* Full-bleed workshop scene (placeholder slot until scene-workshop-wide.jpg is supplied). */}
+      {/* Full-bleed workshop scene. Illustrative (AI-generated) until a real Tomstroj photo replaces it. */}
       <MediaImage id="sceneWorkshopWide" frame="none" sizes="100vw" />
 
       <section className="section">
@@ -62,14 +62,18 @@ export default async function AboutPage({ params }: Props) {
         <div className="container-x">
           <h2 className="t-h2">{t('made.title')}</h2>
           <p className="mt-4 max-w-[60ch] text-steel">{t('made.lead')}</p>
-          {/* TODO(owner): real photos of the Tomstroj workshop. */}
-          <ul className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {[1, 2, 3, 4, 5, 6].map((n) => (
-              <li key={n} className="aspect-[4/3] overflow-hidden rounded-[8px]">
-                <Placeholder label={`${t('made.title')} — ${common('placeholder')}`} file={`public/images/workshop-${n}.jpg`} />
+          {/* TODO(owner): replace these illustrative images with real photos of the Tomstroj workshops (same paths). */}
+          <ul className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {workshopGallery.map((id) => (
+              <li key={id}>
+                <figure>
+                  <MediaImage id={id} sizes="(min-width: 1024px) 380px, (min-width: 640px) 50vw, 100vw" />
+                  <figcaption className="mt-3 font-display text-[17px] font-semibold">{t(`made.labels.${id}`)}</figcaption>
+                </figure>
               </li>
             ))}
           </ul>
+          <p className="t-caption mt-6">{t('made.illustrative')}</p>
         </div>
       </section>
 

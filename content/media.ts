@@ -5,8 +5,9 @@
  *
  * Alt text for each id lives in messages (`alt.<id>`) in all three languages.
  *
- * The six industry scenes (scene-cnc … scene-gift) are AI-generated stock images (Higgsfield,
- * GPT Image 2.6). They deliberately do not show the hammer, so they never misrepresent the product.
+ * The six industry scenes (scene-cnc … scene-gift), the wide workshop scene and the six About-page
+ * workshop images (workshop-1 … workshop-6) are AI-generated (Higgsfield, GPT Image 2.6). They deliberately
+ * do not show the hammer, and the About page labels its workshop images as illustrative.
  * DO NOT USE: /images/real-case-label-TYPO-reshoot.jpg and /assets/images/field-hold/*
  * (label reads "Cooper", lid sticker mirrored) — they are deliberately not listed here.
  */
@@ -14,7 +15,7 @@ export type MediaKind = 'cutout' | 'render' | 'photo' | 'scene' | 'graphic';
 
 export type MediaEntry = {
   src: string;
-  /** width / height, measured from the files. The wide workshop scene and the map are still estimates. */
+  /** width / height, measured from the files. Only the map is still an estimate. */
   aspect: number;
   kind: MediaKind;
 };
@@ -48,7 +49,15 @@ export const media = {
   sceneMaintenance: { src: '/images/scene-maintenance.jpg', aspect: 2336 / 1744, kind: 'scene' },
   sceneElectromech: { src: '/images/scene-electromech.jpg', aspect: 2336 / 1744, kind: 'scene' },
   sceneGift: { src: '/images/scene-gift.jpg', aspect: 2336 / 1744, kind: 'scene' },
-  sceneWorkshopWide: { src: '/images/scene-workshop-wide.jpg', aspect: 21 / 9, kind: 'scene' },
+  sceneWorkshopWide: { src: '/images/scene-workshop-wide.jpg', aspect: 2688 / 1152, kind: 'scene' },
+  // About page grid, in the order of the "Who we are" description. Illustrative (AI-generated) until real
+  // Tomstroj workshop photos replace them at the same paths.
+  workshopDesign: { src: '/images/workshop-1-design.jpg', aspect: 2336 / 1744, kind: 'scene' },
+  workshopFabrication: { src: '/images/workshop-2-fabrication.jpg', aspect: 2336 / 1744, kind: 'scene' },
+  workshopMachining: { src: '/images/workshop-3-machining.jpg', aspect: 2336 / 1744, kind: 'scene' },
+  workshopHydraulics: { src: '/images/workshop-4-hydraulics.jpg', aspect: 2336 / 1744, kind: 'scene' },
+  workshopElectrics: { src: '/images/workshop-5-electrics.jpg', aspect: 2336 / 1744, kind: 'scene' },
+  workshopAssembly: { src: '/images/workshop-6-assembly.jpg', aspect: 2336 / 1744, kind: 'scene' },
   // TODO(owner): static map image of Podovnice 1 (e.g. an exported OpenStreetMap tile with attribution).
   contactMap: { src: '/images/map-notranje-gorice.jpg', aspect: 16 / 9, kind: 'graphic' },
   unboxingPoster: { src: '/video/unboxing-poster.jpg', aspect: 608 / 1080, kind: 'photo' },
@@ -69,6 +78,15 @@ export const files = {
 export function dimensionsId(locale: string): MediaId {
   return locale === 'sl' ? 'dimensionsSl' : locale === 'de' ? 'dimensionsDe' : 'dimensionsEn';
 }
+
+export const workshopGallery = [
+  'workshopDesign',
+  'workshopFabrication',
+  'workshopMachining',
+  'workshopHydraulics',
+  'workshopElectrics',
+  'workshopAssembly',
+] as const satisfies readonly MediaId[];
 
 export const productGallery: readonly MediaId[] = [
   'heroCutout',
