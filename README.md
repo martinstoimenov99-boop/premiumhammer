@@ -164,11 +164,11 @@ Search the code for `TODO(owner)` and `TODO:`.
 - [ ] Lead time for "How fast do you ship?". The FAQ currently says only that the shipping date is confirmed within one working day. Update `faq.product[5]`.
 - [ ] Starter carton size, EAN codes and carton dimensions for the Dealers page: `dealers.sizes.starterQty`, `dealers.get.items`.
 - [ ] Real Tomstroj workshop photos for the About page, replacing the illustrative AI images, then remove the "illustrative" caption (see above).
-- [ ] All brand assets: logos, renders, photos, dimension graphics, video, brochures (see the list above).
 - [ ] Reshoot the case photo with the label corrected to "Copper".
-- [ ] Native-speaker review of `messages/sl.json` and `messages/de.json`, then remove the `_review` marker.
+- [ ] Native-speaker review of `messages/sl.json` and `messages/de.json` (this also covers the SL and DE brochures), then remove the `_review` marker and re-run `npm run brochure`.
 - [ ] Legal review of the privacy policy and the VAT wording, then remove the `privacy.status` badge.
 - [ ] Confirm who filmed the unboxing video and caption it with permission (`components/VideoCard.tsx`).
 - [ ] Real customer quote with written permission (`content/testimonials.ts`). No placeholder quotes.
-- [ ] Reprint the case label as "Copper" and the lid sticker un-mirrored, then reshoot the case photos and the video.
+- [ ] Reprint the case label as "Copper" and the lid sticker un-mirrored, then reshoot the case photos and the video (the video poster currently shows the "Cooper" label).
+- [ ] Add the Resend and Turnstile keys in Vercel (see "Environment variables"); until then every form fails closed.
 - [ ] Comparison and market figures cite "public EU retail listings, November 2026". Re-check them periodically.
