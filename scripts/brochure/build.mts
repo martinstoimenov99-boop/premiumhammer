@@ -2,10 +2,11 @@
 // product facts from content/product.ts and copy from messages/{locale}.json, so the brochure
 // follows the same legal wording rules as the site (npm run check:claims).
 //
-// Usage:  npm run brochure            (all locales)
-//         npm run brochure -- de      (one locale)
-// Output: public/downloads/<file name from content/media.ts>
-import { readFileSync } from 'node:fs';
+// Usage:  npm run brochure                               (all locales)
+//         npm run brochure -- de                         (one locale)
+//         npm run brochure -- --no-prices --out <dir>    (price-free copies, e.g. for dealers)
+// Output: public/downloads/<file name from content/media.ts>, or <dir>/<name>-no-prices.pdf
+import { mkdirSync, readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import { createRequire } from 'node:module';
@@ -31,7 +32,7 @@ function esc(s: string) {
   return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
-function html(locale: Locale): string {
+function html(locale: Locale, showPrices: boolean): string {
   const m = JSON.parse(readFileSync(path.join(root, 'messages', `${locale}.json`), 'utf8'));
   const b = m.brochure;
   const price = (n: number) =>
@@ -64,7 +65,7 @@ function html(locale: Locale): string {
   const header = (right: string) => `
     <header><img class="logo" src="${pub(files.logoWhite)}"><span>${esc(right)}</span></header>`;
   const footer = (n: number) => `
-    <footer><span>${esc(m.common.pricesExclVat)} · premiumhammer.com</span><span>${esc(fill(b.page, { n: String(n), total: '2' }))}</span></footer>`;
+    <footer><span>${showPrices ? `${esc(m.common.pricesExclVat)} · ` : ''}premiumhammer.com</span><span>${esc(fill(b.page, { n: String(n), total: '2' }))}</span></footer>`;
 
   return `<!doctype html><html lang="${locale}"><head><meta charset="utf-8"><title>${esc(b.title)}</title><style>
   @font-face{font-family:Inter;font-weight:400;src:url(${font('Inter-Regular.ttf')})}
@@ -135,7 +136,7 @@ function html(locale: Locale): string {
       <div class="hero">
         <div class="disc"></div>
         <img src="${pub('images/hero-angled-cutout.png')}">
-        <div class="badge"><div class="p">${esc(fill(b.from, { price: price(noCase.priceExclVat) }))}</div><small>${esc(m.common.exclVat)} · ${esc(m.common.payByInvoice)}</small></div>
+        ${showPrices ? `<div class="badge"><div class="p">${esc(fill(b.from, { price: price(noCase.priceExclVat) }))}</div><small>${esc(m.common.exclVat)} · ${esc(m.common.payByInvoice)}</small></div>` : ''}
       </div>
       <div class="strip">
         <div><b>${num(product.weightGrams)} g</b><span>${esc(m.home.specStrip.weight)}</span></div>
@@ -166,16 +167,16 @@ function html(locale: Locale): string {
           <p style="font-size:7pt;color:#6B6B6B;margin-top:1.5mm">${esc(m.product.dimensionsEstimate)}</p></div>
         <div><h2>${esc(m.hammer.uses.title)}</h2><ul class="b">${uses}</ul>
           <h2 style="margin-top:4mm">${esc(m.hammer.box.title)}</h2>
-          <ul class="b"><li>${esc(m.hammer.box.hammer)}</li><li>${esc(fill(m.hammer.box.case, { price: price(withCase.priceExclVat) }))}</li><li>${esc(m.hammer.box.card)}</li></ul></div>
+          <ul class="b"><li>${esc(m.hammer.box.hammer)}</li><li>${showPrices ? esc(fill(m.hammer.box.case, { price: price(withCase.priceExclVat) })) : `${esc(m.home.details.case)} (${esc(m.product.variant.case.short)})`}</li><li>${esc(m.hammer.box.card)}</li></ul></div>
       </div>
-      <div class="order">
-        <div class="prices">
+      <div class="order"${showPrices ? '' : ' style="grid-template-columns:1fr"'}>
+        ${showPrices ? `<div class="prices">
           <div><b>${price(noCase.priceExclVat)}</b><span>${esc(m.product.variant.nocase.name)}</span></div>
           <div><b>${price(withCase.priceExclVat)}</b><span>${esc(m.product.variant.case.name)}</span></div>
-        </div>
+        </div>` : ''}
         <div>
           <h3>${esc(b.orderTitle)}</h3>
-          <p>${esc(m.common.exclVat)} · ${esc(m.common.freeShipping)} · ${esc(m.common.payByInvoice)}</p>
+          <p>${showPrices ? `${esc(m.common.exclVat)} · ` : ''}${esc(m.common.freeShipping)} · ${esc(m.common.payByInvoice)}</p>
           <p style="margin-top:1.5mm">premiumhammer.com · ${esc(company.phone)} · ${esc(company.email)}</p>
           <p>${esc(company.shortName)}, ${esc(company.street)}, ${esc(company.postalCode)} ${esc(company.city)}, ${esc(m.company.country)}</p>
         </div>
@@ -186,14 +187,20 @@ function html(locale: Locale): string {
   </body></html>`;
 }
 
-const wanted = (process.argv.slice(2).filter((a) => ['en', 'sl', 'de'].includes(a)) as Locale[]);
+const args = process.argv.slice(2);
+const showPrices = !args.includes('--no-prices');
+const outIdx = args.indexOf('--out');
+const outDir = outIdx >= 0 ? path.resolve(args[outIdx + 1] ?? '.') : null;
+if (outDir) mkdirSync(outDir, { recursive: true });
+const wanted = (args.filter((a) => ['en', 'sl', 'de'].includes(a)) as Locale[]);
 const locales: Locale[] = wanted.length ? wanted : ['en', 'sl', 'de'];
 const browser = await chromium.launch();
 for (const locale of locales) {
   const page = await browser.newPage();
-  await page.setContent(html(locale), { waitUntil: 'load' });
+  await page.setContent(html(locale, showPrices), { waitUntil: 'load' });
   await page.evaluate(() => document.fonts.ready);
-  const out = path.join(root, 'public', outFile[locale]);
+  const name = path.basename(outFile[locale], '.pdf') + (showPrices ? '' : '-no-prices') + '.pdf';
+  const out = outDir ? path.join(outDir, name) : path.join(root, 'public', outFile[locale]);
   const m = JSON.parse(readFileSync(path.join(root, 'messages', `${locale}.json`), 'utf8'));
   await page.pdf({ path: out, format: 'A4', printBackground: true, preferCSSPageSize: true, tagged: true, outline: false });
   await page.close();
