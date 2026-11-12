@@ -68,7 +68,7 @@ Set them in Vercel → Project → Settings → Environment Variables for Produc
 
 1. Import this GitHub repository into Vercel (framework: Next.js, default build settings).
 2. Add the environment variables above.
-3. Project → **Domains**: add `premiumhammer.com` and `www.premiumhammer.com`; set `www` to **Redirect to** `premiumhammer.com` (308). `next.config.ts` also redirects `www` → apex.
+3. Project → **Domains**: add `premiumhammer.com` and `www.premiumhammer.com`; set `www` to **Redirect to** `premiumhammer.com` (308). Do the redirect only there: the code does not redirect hosts, and a second, opposite rule creates a redirect loop.
 4. Enable **Web Analytics** and **Speed Insights** in the project.
 
 ## Images, video and downloads: swapping placeholders

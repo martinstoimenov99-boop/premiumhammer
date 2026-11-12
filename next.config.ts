@@ -9,18 +9,8 @@ const nextConfig: NextConfig = {
     formats: ['image/avif', 'image/webp'],
     deviceSizes: [360, 480, 640, 768, 1024, 1280, 1600, 2048],
   },
-  async redirects() {
-    return [
-      {
-        // www → apex. The Vercel domain settings should also redirect www;
-        // this keeps the rule in code so preview setups behave the same.
-        source: '/:path*',
-        has: [{ type: 'host', value: 'www.premiumhammer.com' }],
-        destination: 'https://premiumhammer.com/:path*',
-        permanent: true,
-      },
-    ];
-  },
+  // www ↔ apex is handled by the Vercel domain settings (Project → Settings → Domains), not here:
+  // a redirect in code plus an opposite redirect in Vercel loops forever.
   async headers() {
     return [
       {
