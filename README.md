@@ -108,9 +108,13 @@ Photos have had their EXIF/GPS metadata removed. Keep it that way: never re-expo
 
 Aspect ratios in `content/media.ts` are measured from the supplied files. Update `aspect` if a file is replaced with one of a different shape.
 
-### Workshop scenes (to be photographed or generated)
+### Industry scenes (AI-generated) and workshop photos
 
-`public/images/scene-cnc.jpg`, `scene-bearing.jpg`, `scene-automotive.jpg`, `scene-maintenance.jpg`, `scene-electromech.jpg`, `scene-gift.jpg`, `scene-workshop-wide.jpg`, plus six Tomstroj workshop photos for the About page (`workshop-1.jpg` … `workshop-6.jpg`; wire them up in `app/[locale]/about/page.tsx`).
+The six industry tiles (`scene-cnc.jpg`, `scene-bearing.jpg`, `scene-automotive.jpg`, `scene-maintenance.jpg`, `scene-electromech.jpg`, `scene-gift.jpg`) are **AI-generated stock images** (Higgsfield, GPT Image 2.6, 2336 × 1744). They deliberately leave the hammer out, so no generated image can misrepresent the product; the real product is shown only in real photos and renders. Replace any of them with a real photo at the same path whenever you have one.
+
+Still missing:
+
+`public/images/scene-workshop-wide.jpg` plus six Tomstroj workshop photos for the About page (`workshop-1.jpg` … `workshop-6.jpg`; wire them up in `app/[locale]/about/page.tsx`).
 
 Art direction:
 
@@ -154,7 +158,7 @@ Search the code for `TODO(owner)` and `TODO:`.
 - [ ] Lead time for "How fast do you ship?". The FAQ currently says only that the shipping date is confirmed within one working day. Update `faq.product[5]`.
 - [ ] Starter carton size, EAN codes and carton dimensions for the Dealers page: `dealers.sizes.starterQty`, `dealers.get.items`.
 - [ ] German brochure PDF: `public/downloads/premium-hammer-broschuere-de.pdf`.
-- [ ] Real workshop photos and generated industry scenes (see above).
+- [ ] Real Tomstroj workshop photos for the About page (industry scenes are done, AI-generated; see above).
 - [ ] Static map image for the Contact page (e.g. an OpenStreetMap export with attribution).
 - [ ] All brand assets: logos, renders, photos, dimension graphics, video, brochures (see the list above).
 - [ ] Reshoot the case photo with the label corrected to "Copper".

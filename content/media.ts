@@ -4,6 +4,9 @@
  * instead (see lib/media.server.ts) — drop the real file in at the same path and rebuild.
  *
  * Alt text for each id lives in messages (`alt.<id>`) in all three languages.
+ *
+ * The six industry scenes (scene-cnc … scene-gift) are AI-generated stock images (Higgsfield,
+ * GPT Image 2.6). They deliberately do not show the hammer, so they never misrepresent the product.
  * DO NOT USE: /images/real-case-label-TYPO-reshoot.jpg and /assets/images/field-hold/*
  * (label reads "Cooper", lid sticker mirrored) — they are deliberately not listed here.
  */
@@ -11,7 +14,7 @@ export type MediaKind = 'cutout' | 'render' | 'photo' | 'scene' | 'graphic';
 
 export type MediaEntry = {
   src: string;
-  /** width / height. Measured from the supplied files; scenes and the map are still estimates. */
+  /** width / height, measured from the files. The wide workshop scene and the map are still estimates. */
   aspect: number;
   kind: MediaKind;
 };
@@ -39,12 +42,12 @@ export const media = {
   field05: { src: '/images/field/field-05-site-telehandler-2.jpg', aspect: 1126 / 2000, kind: 'photo' },
   field06: { src: '/images/field/field-06-site-scaffold.jpg', aspect: 1126 / 2000, kind: 'photo' },
   field07: { src: '/images/field/field-07-in-motion.jpg', aspect: 1126 / 2000, kind: 'photo' },
-  sceneCnc: { src: '/images/scene-cnc.jpg', aspect: 4 / 3, kind: 'scene' },
-  sceneBearing: { src: '/images/scene-bearing.jpg', aspect: 4 / 3, kind: 'scene' },
-  sceneAutomotive: { src: '/images/scene-automotive.jpg', aspect: 4 / 3, kind: 'scene' },
-  sceneMaintenance: { src: '/images/scene-maintenance.jpg', aspect: 4 / 3, kind: 'scene' },
-  sceneElectromech: { src: '/images/scene-electromech.jpg', aspect: 4 / 3, kind: 'scene' },
-  sceneGift: { src: '/images/scene-gift.jpg', aspect: 4 / 3, kind: 'scene' },
+  sceneCnc: { src: '/images/scene-cnc.jpg', aspect: 2336 / 1744, kind: 'scene' },
+  sceneBearing: { src: '/images/scene-bearing.jpg', aspect: 2336 / 1744, kind: 'scene' },
+  sceneAutomotive: { src: '/images/scene-automotive.jpg', aspect: 2336 / 1744, kind: 'scene' },
+  sceneMaintenance: { src: '/images/scene-maintenance.jpg', aspect: 2336 / 1744, kind: 'scene' },
+  sceneElectromech: { src: '/images/scene-electromech.jpg', aspect: 2336 / 1744, kind: 'scene' },
+  sceneGift: { src: '/images/scene-gift.jpg', aspect: 2336 / 1744, kind: 'scene' },
   sceneWorkshopWide: { src: '/images/scene-workshop-wide.jpg', aspect: 21 / 9, kind: 'scene' },
   // TODO(owner): static map image of Podovnice 1 (e.g. an exported OpenStreetMap tile with attribution).
   contactMap: { src: '/images/map-notranje-gorice.jpg', aspect: 16 / 9, kind: 'graphic' },
