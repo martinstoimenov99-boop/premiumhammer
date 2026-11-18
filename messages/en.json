@@ -80,7 +80,8 @@
     "legalLabel": "Legal",
     "privacy": "Privacy",
     "imprint": "Legal notice",
-    "rights": "© {year} Tomstroj d.o.o. All rights reserved."
+    "rights": "© {year} Tomstroj d.o.o. All rights reserved.",
+    "cookies": "Cookie settings"
   },
   "company": {
     "country": "Slovenia",
@@ -796,11 +797,11 @@
       },
       {
         "h": "Processors",
-        "p": "Resend (email delivery), Vercel (hosting and cookieless, aggregated analytics) and Cloudflare Turnstile (spam protection). Each acts on our behalf under a data processing agreement. Some processors may process data outside the EU under the EU Standard Contractual Clauses or the EU–US Data Privacy Framework."
+        "p": "Resend (email delivery), Vercel (hosting and cookieless, aggregated analytics), Cloudflare Turnstile (spam protection) and, only with your consent, Google (Google Tag Manager and the Google services it loads). Each acts on our behalf under a data processing agreement. Some processors may process data outside the EU under the EU Standard Contractual Clauses or the EU–US Data Privacy Framework."
       },
       {
         "h": "Cookies and analytics",
-        "p": "We use Vercel Web Analytics and Speed Insights, which are cookieless and do not track you across sites. We do not use tracking cookies, so no cookie banner is needed. Cloudflare Turnstile may set a strictly necessary cookie when you submit a form."
+        "p": "We use Vercel Web Analytics and Speed Insights, which are cookieless and do not track you across sites. Only if you click “Accept” in the cookie banner do we load Google Tag Manager, which can load Google services such as Google Analytics that set cookies and process your IP address and device data (provider: Google Ireland Limited; transfers to the US under the EU–US Data Privacy Framework). The legal basis is your consent (Art. 6(1)(a) GDPR). If you click “Reject”, Google Tag Manager is not loaded. You can withdraw or change your consent at any time via “Cookie settings” in the footer. Cloudflare Turnstile may set a strictly necessary cookie when you submit a form."
       },
       {
         "h": "Your rights",
@@ -874,5 +875,11 @@
     "caseReal": "The real hammer in its hard case",
     "orderTitle": "Order or request a quote",
     "page": "Page {n} / {total}"
+  },
+  "consent": {
+    "title": "Cookies",
+    "text": "We use Google Tag Manager to understand how the site is used, which sets cookies only if you accept. You can change your choice any time under “Cookie settings”. Details in our <link>privacy policy</link>.",
+    "accept": "Accept",
+    "reject": "Reject"
   }
 }

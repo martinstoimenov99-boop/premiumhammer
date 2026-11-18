@@ -81,7 +81,8 @@
     "legalLabel": "Rechtliches",
     "privacy": "Datenschutz",
     "imprint": "Impressum",
-    "rights": "© {year} Tomstroj d.o.o. Alle Rechte vorbehalten."
+    "rights": "© {year} Tomstroj d.o.o. Alle Rechte vorbehalten.",
+    "cookies": "Cookie-Einstellungen"
   },
   "company": {
     "country": "Slowenien",
@@ -797,11 +798,11 @@
       },
       {
         "h": "Auftragsverarbeiter",
-        "p": "Resend (E-Mail-Versand), Vercel (Hosting sowie cookielose, aggregierte Analyse) und Cloudflare Turnstile (Spamschutz). Alle handeln in unserem Auftrag auf Grundlage eines Auftragsverarbeitungsvertrags. Einige Auftragsverarbeiter können Daten außerhalb der EU auf Grundlage der EU-Standardvertragsklauseln oder des EU-US Data Privacy Framework verarbeiten."
+        "p": "Resend (E-Mail-Versand), Vercel (Hosting sowie cookielose, aggregierte Analyse), Cloudflare Turnstile (Spamschutz) und, nur mit Ihrer Einwilligung, Google (Google Tag Manager und die darüber geladenen Google-Dienste). Alle handeln in unserem Auftrag auf Grundlage eines Auftragsverarbeitungsvertrags. Einige Auftragsverarbeiter können Daten außerhalb der EU auf Grundlage der EU-Standardvertragsklauseln oder des EU-US Data Privacy Framework verarbeiten."
       },
       {
         "h": "Cookies und Analyse",
-        "p": "Wir nutzen Vercel Web Analytics und Speed Insights; beide arbeiten ohne Cookies und verfolgen Sie nicht über Websites hinweg. Wir setzen keine Tracking-Cookies ein, daher ist kein Cookie-Banner nötig. Cloudflare Turnstile kann beim Absenden eines Formulars ein technisch notwendiges Cookie setzen."
+        "p": "Wir nutzen Vercel Web Analytics und Speed Insights; beide arbeiten ohne Cookies und verfolgen Sie nicht über Websites hinweg. Nur wenn Sie im Cookie-Banner auf „Akzeptieren“ klicken, laden wir Google Tag Manager, der Google-Dienste wie Google Analytics laden kann, die Cookies setzen und Ihre IP-Adresse und Gerätedaten verarbeiten (Anbieter: Google Ireland Limited; Übermittlung in die USA auf Grundlage des EU-US Data Privacy Framework). Rechtsgrundlage ist Ihre Einwilligung (Art. 6 Abs. 1 lit. a DSGVO). Klicken Sie auf „Ablehnen“, wird Google Tag Manager nicht geladen. Sie können Ihre Einwilligung jederzeit über „Cookie-Einstellungen“ in der Fußzeile widerrufen oder ändern. Cloudflare Turnstile kann beim Absenden eines Formulars ein technisch notwendiges Cookie setzen."
       },
       {
         "h": "Ihre Rechte",
@@ -875,5 +876,11 @@
     "caseReal": "Der echte Hammer im Hartschalenkoffer",
     "orderTitle": "Bestellen oder Angebot anfordern",
     "page": "Seite {n} / {total}"
+  },
+  "consent": {
+    "title": "Cookies",
+    "text": "Wir nutzen Google Tag Manager, um zu verstehen, wie die Website genutzt wird. Cookies werden nur gesetzt, wenn Sie zustimmen. Ihre Auswahl können Sie jederzeit unter „Cookie-Einstellungen“ ändern. Details in unserer <link>Datenschutzerklärung</link>.",
+    "accept": "Akzeptieren",
+    "reject": "Ablehnen"
   }
 }

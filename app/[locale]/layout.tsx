@@ -14,6 +14,9 @@ import { organizationJsonLd } from '@/lib/jsonld';
 import { files } from '@/content/media';
 import { publicFileExists } from '@/lib/media.server';
 import { siteUrl } from '@/content/company';
+import Script from 'next/script';
+import { consentBootstrap } from '@/lib/consent';
+import { ConsentBanner } from '@/components/ConsentBanner';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -36,7 +39,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 }
 
 // Only the namespaces client components need are sent to the browser.
-const clientNamespaces = ['nav', 'common', 'form', 'summary', 'hammer', 'product', 'video'] as const;
+const clientNamespaces = ['nav', 'common', 'form', 'summary', 'hammer', 'product', 'video', 'consent'] as const;
 
 export default async function LocaleLayout({ children, params }: { children: ReactNode; params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -62,8 +65,11 @@ export default async function LocaleLayout({ children, params }: { children: Rea
             {children}
           </main>
           <Footer />
+          <ConsentBanner />
         </NextIntlClientProvider>
         <JsonLd data={organizationJsonLd()} />
+        {/* Google Tag Manager — loads only after cookie consent (lib/consent.ts). */}
+        <Script id="gtm-consent" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: consentBootstrap }} />
         <Analytics />
         <SpeedInsights />
       </body>

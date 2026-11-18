@@ -81,7 +81,8 @@
     "legalLabel": "Pravno",
     "privacy": "Zasebnost",
     "imprint": "Pravno obvestilo",
-    "rights": "© {year} Tomstroj d.o.o. Vse pravice pridržane."
+    "rights": "© {year} Tomstroj d.o.o. Vse pravice pridržane.",
+    "cookies": "Nastavitve piškotkov"
   },
   "company": {
     "country": "Slovenija",
@@ -797,11 +798,11 @@
       },
       {
         "h": "Obdelovalci",
-        "p": "Resend (pošiljanje e-pošte), Vercel (gostovanje in zbirna analitika brez piškotkov) in Cloudflare Turnstile (zaščita pred neželeno pošto). Vsak deluje v našem imenu na podlagi pogodbe o obdelavi podatkov. Nekateri obdelovalci lahko podatke obdelujejo zunaj EU na podlagi standardnih pogodbenih klavzul EU ali okvira EU-ZDA za zasebnost podatkov."
+        "p": "Resend (pošiljanje e-pošte), Vercel (gostovanje in zbirna analitika brez piškotkov), Cloudflare Turnstile (zaščita pred neželeno pošto) in, le z vašo privolitvijo, Google (Google Tag Manager in Googlove storitve, ki jih naloži). Vsak deluje v našem imenu na podlagi pogodbe o obdelavi podatkov. Nekateri obdelovalci lahko podatke obdelujejo zunaj EU na podlagi standardnih pogodbenih klavzul EU ali okvira EU-ZDA za zasebnost podatkov."
       },
       {
         "h": "Piškotki in analitika",
-        "p": "Uporabljamo Vercel Web Analytics in Speed Insights, ki ne uporabljata piškotkov in vas ne sledita med spletnimi mesti. Sledilnih piškotkov ne uporabljamo, zato pasica za piškotke ni potrebna. Cloudflare Turnstile lahko ob oddaji obrazca nastavi nujno potreben piškotek."
+        "p": "Uporabljamo Vercel Web Analytics in Speed Insights, ki ne uporabljata piškotkov in vas ne sledita med spletnimi mesti. Le če v pasici za piškotke kliknete »Sprejmem«, naložimo Google Tag Manager, ki lahko naloži Googlove storitve, kot je Google Analytics, ki nastavijo piškotke in obdelujejo vaš naslov IP in podatke o napravi (ponudnik: Google Ireland Limited; prenos v ZDA na podlagi okvira EU-ZDA za zasebnost podatkov). Pravna podlaga je vaša privolitev (člen 6(1)(a) GDPR). Če kliknete »Zavrnem«, Google Tag Manager ni naložen. Privolitev lahko kadar koli prekličete ali spremenite prek »Nastavitev piškotkov« v nogi strani. Cloudflare Turnstile lahko ob oddaji obrazca nastavi nujno potreben piškotek."
       },
       {
         "h": "Vaše pravice",
@@ -875,5 +876,11 @@
     "caseReal": "Pravo kladivo v trdem kovčku",
     "orderTitle": "Naročite ali zahtevajte ponudbo",
     "page": "Stran {n} / {total}"
+  },
+  "consent": {
+    "title": "Piškotki",
+    "text": "Za razumevanje uporabe spletnega mesta uporabljamo Google Tag Manager, ki piškotke nastavi le, če se strinjate. Izbiro lahko kadar koli spremenite v »Nastavitvah piškotkov«. Podrobnosti so v <link>politiki zasebnosti</link>.",
+    "accept": "Sprejmem",
+    "reject": "Zavrnem"
   }
 }

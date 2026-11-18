@@ -39,6 +39,7 @@ npm run build
 | `NEXT_PUBLIC_TURNSTILE_SITE_KEY` | Turnstile site key (public) |
 | `TURNSTILE_SECRET_KEY` | Turnstile secret key |
 | `NEXT_PUBLIC_SITE_URL` | `https://premiumhammer.com` (canonical URLs, sitemap, JSON-LD) |
+| `NEXT_PUBLIC_GTM_ID` | Optional. Google Tag Manager container, defaults to `GTM-M62NGDQV` |
 
 Set them in Vercel → Project → Settings → Environment Variables for Production (and Preview if you test forms there).
 
@@ -128,6 +129,10 @@ Art direction:
 Workshop scenes are never captioned as a named company's site. The hammer cutout is never placed on a photo.
 
 **Unboxing video:** it shows the "Cooper" label and the mirrored lid sticker. Reshoot once both are fixed.
+
+## Google Tag Manager and cookie consent
+
+GTM (`GTM-M62NGDQV`, `lib/consent.ts`) uses Google Consent Mode v2 in basic mode: consent defaults to denied and `gtm.js` is loaded only after the visitor clicks **Accept** in the cookie banner (`components/ConsentBanner.tsx`). **Reject** keeps GTM off. The choice is stored in the browser (`localStorage` key `ph-consent`) and can be changed via **Cookie settings** in the footer. Vercel Analytics is cookieless and runs regardless. In GTM, configure tags to respect consent (built-in consent checks for Google tags). If you add non-Google tags, list them in the privacy policy.
 
 ## Brochures and map
 

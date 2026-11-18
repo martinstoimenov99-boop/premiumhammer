@@ -5,6 +5,7 @@ import { files } from '@/content/media';
 import { publicFileExists } from '@/lib/media.server';
 import { LanguageSwitcher } from './LanguageSwitcher';
 import { Logo } from './Logo';
+import { ConsentSettingsLink } from './ConsentBanner';
 
 export async function Footer() {
   const t = await getTranslations('footer');
@@ -75,6 +76,7 @@ export async function Footer() {
           <ul className="flex gap-6" aria-label={t('legalLabel')}>
             <li><Link href="/privacy" className="hover:text-white">{t('privacy')}</Link></li>
             <li><Link href="/imprint" className="hover:text-white">{t('imprint')}</Link></li>
+            <li><ConsentSettingsLink label={t('cookies')} /></li>
           </ul>
         </div>
       </div>
