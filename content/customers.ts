@@ -10,7 +10,6 @@ export const customers = [
   { id: 'eoat', wordmark: 'Eoat Experts d.o.o.' },
   { id: 'tehkom', wordmark: 'TEHKOM' },
   { id: 'trelleborg', wordmark: 'TRELLEBORG' },
-  // TODO(owner): city for Auto Repair Scorpion.
   { id: 'scorpion', wordmark: 'AUTO REPAIR SCORPION' },
   { id: 'mebelvi', wordmark: 'MEBEL VI' },
   { id: 'bikerguard', wordmark: 'Bikerguard' },

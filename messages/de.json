@@ -58,7 +58,6 @@
     "getInTouch": "Kontakt aufnehmen",
     "learnMore": "Mehr erfahren",
     "readGuide": "Zum Ratgeber",
-    "approx": "≈",
     "placeholder": "Bild folgt",
     "placeholderFile": "Datei: {file}",
     "close": "Schließen",
@@ -110,7 +109,6 @@
     "shippingValue": "Versandkostenfrei ab 3 Hämmern in einer Firmenbestellung; sonst nennen wir die Kosten mit der Auftragsbestätigung",
     "certification": "Zertifizierung",
     "certificationValue": "Nicht ATEX/BAM-zertifiziert — wir prüfen eine BAM-Prüfung für den Einsatz in Ex-Bereichen",
-    "dimensionsEstimate": "Maße sind Näherungswerte.",
     "variant": {
       "nocase": {
         "name": "Ohne Koffer",
@@ -331,7 +329,7 @@
     "eoat": "Ljubljana, Slowenien · Robotergreifer",
     "tehkom": "Kočani, Nordmazedonien · Metallverarbeitung",
     "trelleborg": "Kranj, Slowenien · Polymerlösungen",
-    "scorpion": "Kfz-Reparatur",
+    "scorpion": "Skopje, Nordmazedonien · Kfz-Reparatur",
     "mebelvi": "Nordmazedonien · Möbelherstellung",
     "bikerguard": "Ljubljana, Slowenien · Hersteller elektrischer Scheibenwischer"
   },
@@ -390,7 +388,7 @@
       },
       {
         "q": "Wie schnell liefern Sie?",
-        "a": "Das Versanddatum bestätigen wir mit der Auftragsbestätigung, innerhalb eines Werktags nach Ihrer Bestellung."
+        "a": "Der Versand dauert 3–5 Tage. Das Versanddatum bestätigen wir mit der Auftragsbestätigung."
       }
     ]
   },
@@ -728,7 +726,7 @@
     },
     "building": {
       "title": "Woran wir arbeiten",
-      "body": "Neben dem Auftrags-Engineering entwickelt Tomstroj eigene Produkte. Das erste ist <b>TIFCO</b>, eine mobile Abfallpresse für Hotels und Großküchen: Sie läuft an einer normalen einphasigen Steckdose, presst einen vollen Sack in etwa 30 Sekunden und gibt den gepressten Abfall direkt in die Tonne. TIFCO befindet sich in der abschließenden Testphase."
+      "body": "Neben dem Auftrags-Engineering arbeitet Tomstroj an eigenen Produkten. Eines davon ist <b>Teevko</b> (teevko.com): eine akustische Fokus-Kabine für Großraumbüros, gebaut in Skopje, Nordmazedonien. Sie senkt den Bürolärm um 30 dB (ISO 23351-1), ist in unter zwei Stunden aufgebaut und wird in zwei Wochen geliefert."
     },
     "why": {
       "title": "Warum ein Hammer",
@@ -777,7 +775,6 @@
   },
   "privacy": {
     "title": "Datenschutzerklärung",
-    "status": "TODO: rechtliche Prüfung",
     "updated": "Zuletzt aktualisiert am {date}",
     "sections": [
       {

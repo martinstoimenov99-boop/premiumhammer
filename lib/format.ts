@@ -34,8 +34,8 @@ export function formatGrams(g: number, locale: string) {
   return `${formatNumber(g, locale)} g`;
 }
 
-export function formatMm(mm: number, approximate: boolean, locale: string) {
-  return `${approximate ? '≈ ' : ''}${formatNumber(mm, locale)} mm`;
+export function formatMm(mm: number, locale: string) {
+  return `${formatNumber(mm, locale)} mm`;
 }
 
 export function formatDate(iso: string, locale: string) {

@@ -58,7 +58,6 @@
     "getInTouch": "Pišite nam",
     "learnMore": "Več o tem",
     "readGuide": "Preberite vodnik",
-    "approx": "≈",
     "placeholder": "Slika bo kmalu na voljo",
     "placeholderFile": "Datoteka: {file}",
     "close": "Zapri",
@@ -110,7 +109,6 @@
     "shippingValue": "Brezplačna za 3 ali več kladiv v enem naročilu podjetja; sicer jo ponudimo s potrditvijo naročila",
     "certification": "Certifikacija",
     "certificationValue": "Ni certificirano po ATEX/BAM — preučujemo testiranje BAM za uporabo v Ex-conah",
-    "dimensionsEstimate": "Mere so približne.",
     "variant": {
       "nocase": {
         "name": "Brez kovčka",
@@ -331,7 +329,7 @@
     "eoat": "Ljubljana, Slovenija · Prijemala za robotske roke",
     "tehkom": "Kočani, Severna Makedonija · Kovinska obdelava",
     "trelleborg": "Kranj, Slovenija · Inženirske polimerne rešitve",
-    "scorpion": "Avtomehanika",
+    "scorpion": "Skopje, Severna Makedonija · Avtomehanika",
     "mebelvi": "Severna Makedonija · Proizvodnja pohištva",
     "bikerguard": "Ljubljana, Slovenija · Proizvajalec električnih brisalcev"
   },
@@ -390,7 +388,7 @@
       },
       {
         "q": "Kako hitro odpošljete?",
-        "a": "Datum odpreme potrdimo s potrditvijo naročila, v enem delovnem dnevu od naročila."
+        "a": "Dostava traja 3–5 dni. Datum odpreme potrdimo s potrditvijo naročila."
       }
     ]
   },
@@ -728,7 +726,7 @@
     },
     "building": {
       "title": "Kaj razvijamo",
-      "body": "Poleg pogodbenega inženiringa Tomstroj razvija tudi lastne izdelke. Prvi je <b>TIFCO</b>, mobilni stiskalnik odpadkov za hotele in profesionalne kuhinje: deluje na običajni enofazni vtičnici, polno vrečo stisne v približno 30 sekundah in stisnjene odpadke odloži naravnost v zabojnik. TIFCO je v končni fazi testiranja."
+      "body": "Poleg pogodbenega inženiringa Tomstroj razvija tudi lastne izdelke. Eden od njih je <b>Teevko</b> (teevko.com): akustična kabina za zbrano delo v odprtih pisarnah, izdelana v Skopju v Severni Makedoniji. Hrup v pisarni zmanjša za 30 dB (ISO 23351-1), namesti se v manj kot dveh urah in je dobavljena v dveh tednih."
     },
     "why": {
       "title": "Zakaj kladivo",
@@ -777,7 +775,6 @@
   },
   "privacy": {
     "title": "Politika zasebnosti",
-    "status": "TODO: pravni pregled",
     "updated": "Zadnja posodobitev {date}",
     "sections": [
       {

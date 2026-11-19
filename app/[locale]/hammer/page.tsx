@@ -48,7 +48,7 @@ export default async function HammerPage({ params }: Props) {
     { label: p('head'), value: product.head[locale] },
     { label: p('shaft'), value: product.shaft[locale] },
     { label: p('grip'), value: product.grip[locale] },
-    ...product.dimensions.map((d) => ({ label: p(d.key), value: formatMm(d.mm, d.approximate, locale), mono: true })),
+    ...product.dimensions.map((d) => ({ label: p(d.key), value: formatMm(d.mm, locale), mono: true })),
     { label: p('onImpact'), value: product.onImpact[locale] },
     { label: p('priceNoCase'), value: `${formatPrice(product.variants[0].priceExclVat, locale)} ${common('exclVat')}`, mono: true },
     { label: p('priceCase'), value: `${formatPrice(product.variants[1].priceExclVat, locale)} ${common('exclVat')} (${p('priceCaseNote')})`, mono: true },
@@ -100,8 +100,6 @@ export default async function HammerPage({ params }: Props) {
           <div className="grid gap-10 lg:grid-cols-12">
             <div className="lg:col-span-6">
               <SpecTable caption={t('specs.caption')} rows={specRows} />
-              {/* TODO(owner): dimensions are estimates — replace with caliper measurements and remove the ≈ signs (content/product.ts). */}
-              <p className="t-caption mt-3">{p('dimensionsEstimate')}</p>
             </div>
             <div className="lg:col-span-6">
               <DimensionsFigure />

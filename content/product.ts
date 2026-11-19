@@ -4,8 +4,7 @@ import type { Locale } from '@/i18n/routing';
  * Single source of truth for Premium Hammer product facts.
  * Components read from here; never hard-code a fact in a component.
  *
- * TODO(owner): the dimensions are estimates. Replace with caliper measurements,
- * then set `approximate: false` on each dimension (this removes the `≈` signs).
+ * Dimensions are caliper measurements (confirmed by the owner).
  */
 
 type Localized = Record<Locale, string>;
@@ -44,11 +43,11 @@ export const product = {
     de: 'Slowenien',
   } satisfies Localized,
   dimensions: [
-    { key: 'overallLength', mm: 260, approximate: true },
-    { key: 'handleLength', mm: 225, approximate: true },
-    { key: 'headLength', mm: 90, approximate: true },
-    { key: 'headDiameter', mm: 30, approximate: true },
-    { key: 'gripDiameter', mm: 22, approximate: true },
+    { key: 'overallLength', mm: 260 },
+    { key: 'handleLength', mm: 225 },
+    { key: 'headLength', mm: 90 },
+    { key: 'headDiameter', mm: 30 },
+    { key: 'gripDiameter', mm: 22 },
   ] as const,
   currency: 'EUR',
   variants: [

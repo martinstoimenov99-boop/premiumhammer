@@ -57,7 +57,6 @@
     "getInTouch": "Get in touch",
     "learnMore": "Learn more",
     "readGuide": "Read the guide",
-    "approx": "≈",
     "placeholder": "Image coming soon",
     "placeholderFile": "File: {file}",
     "close": "Close",
@@ -109,7 +108,6 @@
     "shippingValue": "Free for 3 or more hammers in one company order; otherwise quoted with the order confirmation",
     "certification": "Certification",
     "certificationValue": "Not ATEX/BAM certified — evaluating BAM testing for Ex-zone use",
-    "dimensionsEstimate": "Dimensions are approximate.",
     "variant": {
       "nocase": {
         "name": "Without case",
@@ -330,7 +328,7 @@
     "eoat": "Ljubljana, Slovenia · Robot Hand Grippers",
     "tehkom": "Kočani, North Macedonia · Metal fabrication",
     "trelleborg": "Kranj, Slovenia · Engineered polymer solutions",
-    "scorpion": "Automotive repair",
+    "scorpion": "Skopje, North Macedonia · Automotive repair",
     "mebelvi": "North Macedonia · Furniture manufacturing",
     "bikerguard": "Ljubljana, Slovenia · Electric Wipers Manufacturer"
   },
@@ -389,7 +387,7 @@
       },
       {
         "q": "How fast do you ship?",
-        "a": "We confirm the shipping date with your order confirmation, within one working day of your order."
+        "a": "Shipping takes 3–5 days. We confirm the shipping date with your order confirmation."
       }
     ]
   },
@@ -727,7 +725,7 @@
     },
     "building": {
       "title": "What we're building",
-      "body": "Alongside contract engineering, Tomstroj develops its own products. The first is <b>TIFCO</b>, a mobile waste compactor for hotels and commercial kitchens: it runs on a standard single-phase socket, compacts a full bag in about 30 seconds and drops the compacted waste straight into the bin. TIFCO is in final testing."
+      "body": "Alongside contract engineering, Tomstroj works on products of its own. One of them is <b>Teevko</b> (teevko.com): an acoustic focus booth for open-plan offices, built in Skopje, North Macedonia. It cuts office noise by 30 dB (ISO 23351-1), installs in under two hours and is delivered in two weeks."
     },
     "why": {
       "title": "Why a hammer",
@@ -776,7 +774,6 @@
   },
   "privacy": {
     "title": "Privacy policy",
-    "status": "TODO: legal review",
     "updated": "Last updated {date}",
     "sections": [
       {

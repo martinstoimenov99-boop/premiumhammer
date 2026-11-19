@@ -12,7 +12,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return pageMetadata(locale, 'privacy', '/privacy');
 }
 
-// TODO(owner): legal review of this policy and of the VAT wording.
 export default async function PrivacyPage({ params }: Props) {
   const { locale } = await params;
   setRequestLocale(locale);
@@ -23,8 +22,6 @@ export default async function PrivacyPage({ params }: Props) {
       <div className="container-x max-w-[860px]">
         <h1 className="t-h2">{t('title')}</h1>
         <p className="t-caption mt-3">{t('updated', { date: formatDate(privacyUpdated, locale) })}</p>
-        {/* Visible review marker until the legal review is done — remove `privacy.status` when approved. */}
-        <p className="mt-4 inline-block rounded-full bg-copper-tint px-3 py-1 text-[13px] font-semibold text-[#5a4632]">{t('status')}</p>
         <div className="mt-10 space-y-10">
           {sections.map((s) => (
             <div key={s.h}>

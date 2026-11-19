@@ -47,7 +47,6 @@ export default async function AboutPage({ params }: Props) {
             </div>
             <div>
               <h2 className="t-h2">{t('building.title')}</h2>
-              {/* TODO(owner): confirm the TIFCO spelling and how much to say publicly. */}
               <p className="mt-5 text-ink/85">{t.rich('building.body', { b: (c) => <strong>{c}</strong> })}</p>
             </div>
             <div>

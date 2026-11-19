@@ -49,7 +49,7 @@ function html(locale: Locale, showPrices: boolean): string {
     [m.product.head, product.head[locale]],
     [m.product.shaft, product.shaft[locale]],
     [m.product.grip, product.grip[locale]],
-    ...product.dimensions.map((d) => [m.product[d.key], `${d.approximate ? '≈ ' : ''}${num(d.mm)} mm`] as [string, string]),
+    ...product.dimensions.map((d) => [m.product[d.key], `${num(d.mm)} mm`] as [string, string]),
     [m.product.onImpact, product.onImpact[locale]],
     [m.product.madeIn, product.madeIn[locale]],
   ];
@@ -163,8 +163,7 @@ function html(locale: Locale, showPrices: boolean): string {
         <figure><div class="ph"><img src="${pub('images/case-open-render.jpg')}" style="object-fit:contain;background:#fff"></div><figcaption>${esc(m.home.details.case)}</figcaption></figure>
       </div>
       <div class="cols">
-        <div><h2>${esc(m.hammer.specs.title)}</h2><table>${specs.map(([k, v]) => `<tr><td>${esc(k)}</td><td>${esc(v)}</td></tr>`).join('')}</table>
-          <p style="font-size:7pt;color:#6B6B6B;margin-top:1.5mm">${esc(m.product.dimensionsEstimate)}</p></div>
+        <div><h2>${esc(m.hammer.specs.title)}</h2><table>${specs.map(([k, v]) => `<tr><td>${esc(k)}</td><td>${esc(v)}</td></tr>`).join('')}</table></div>
         <div><h2>${esc(m.hammer.uses.title)}</h2><ul class="b">${uses}</ul>
           <h2 style="margin-top:4mm">${esc(m.hammer.box.title)}</h2>
           <ul class="b"><li>${esc(m.hammer.box.hammer)}</li><li>${showPrices ? esc(fill(m.hammer.box.case, { price: price(withCase.priceExclVat) })) : `${esc(m.home.details.case)} (${esc(m.product.variant.case.short)})`}</li><li>${esc(m.hammer.box.card)}</li></ul></div>
